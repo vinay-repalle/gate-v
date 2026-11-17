@@ -6,6 +6,13 @@
 <title>GATE 2027 ECE Tracker</title>
 <meta name="description" content="GATE 2027 ECE syllabus tree with progress tracking">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f4bd0'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='white' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#2f4bd0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="GATE ECE">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -44,6 +51,10 @@
   <p>Source: official GATE 2027 EC syllabus (IIT Madras, <a href="https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EC_GATE2027_Syllabus.pdf" target="_blank" rel="noopener">PDF</a>). Topics tagged <span class="pill official">official</span> are named in it; <span class="pill notes">her notes</span> come from handwritten notes; untagged ones are expanded for study depth. General Aptitude is the standard GATE pattern. Always cross-check with the official PDF.</p>
   <p>Progress: <b id="sync">…</b></p>
   <p id="acct"></p>
+  <p id="installRow" hidden>
+    <button class="mini" id="install" type="button">Install app on this device</button>
+    <span id="installHint" hidden>To install on iPhone: tap Share, then “Add to Home Screen”. It then opens without internet too.</span>
+  </p>
   <p>Something missing? Open ⋯ on any topic and use “Add sub-point”.</p>
 </footer>
 
@@ -63,5 +74,6 @@
   </form>
 </div>
 <script type="module" src="app.js"></script>
+<script type="module" src="pwa.js"></script>
 </body>
 </html>
