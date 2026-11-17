@@ -17,10 +17,10 @@ const maskable = svg
   .replace('translate(512 512) scale(1.08)', 'translate(512 512) scale(.8)');
 
 const JOBS = [
-  { file: 'icon-192.png', size: 192, svg },
-  { file: 'icon-512.png', size: 512, svg },
-  { file: 'icon-maskable-512.png', size: 512, svg: maskable },
-  { file: 'apple-touch-icon.png', size: 180, svg: svg.replace('rx="230"', 'rx="0"') }, // iOS rounds the corners itself
+  { file: 'girl-192.png', size: 192, svg },
+  { file: 'girl-512.png', size: 512, svg },
+  { file: 'girl-maskable-512.png', size: 512, svg: maskable },
+  { file: 'girl-apple-180.png', size: 180, svg: svg.replace('rx="230"', 'rx="0"') }, // iOS rounds the corners itself
 ];
 
 const PORT = 9300 + Math.floor(Math.random() * 500);
