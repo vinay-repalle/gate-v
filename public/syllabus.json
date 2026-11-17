@@ -34,6 +34,18 @@
         "num": "1.1.1.3",
         "title": "Basis & dimension",
         "src": "official"
+       },
+       {
+        "id": "maths.linear-algebra.vector-space.span",
+        "num": "1.1.1.4",
+        "title": "Span",
+        "src": "notes"
+       },
+       {
+        "id": "maths.linear-algebra.vector-space.orthogonal-orthonormal-vectors",
+        "num": "1.1.1.5",
+        "title": "Orthogonal & orthonormal vectors",
+        "src": "notes"
        }
       ]
      },
@@ -44,26 +56,32 @@
       "src": "official",
       "children": [
        {
-        "id": "maths.linear-algebra.matrix-algebra.types-symmetric-skew-orthogonal-hermitia",
+        "id": "maths.linear-algebra.matrix-algebra.basic-definitions",
         "num": "1.1.2.1",
+        "title": "Basic definitions",
+        "src": "notes"
+       },
+       {
+        "id": "maths.linear-algebra.matrix-algebra.types-symmetric-skew-orthogonal-hermitia",
+        "num": "1.1.2.2",
         "title": "Types (symmetric, skew, orthogonal, Hermitian, unitary)",
         "src": "expanded"
        },
        {
         "id": "maths.linear-algebra.matrix-algebra.determinant-properties",
-        "num": "1.1.2.2",
+        "num": "1.1.2.3",
         "title": "Determinant & properties",
         "src": "expanded"
        },
        {
         "id": "maths.linear-algebra.matrix-algebra.inverse-adjoint",
-        "num": "1.1.2.3",
+        "num": "1.1.2.4",
         "title": "Inverse & adjoint",
         "src": "expanded"
        },
        {
         "id": "maths.linear-algebra.matrix-algebra.transpose-trace",
-        "num": "1.1.2.4",
+        "num": "1.1.2.5",
         "title": "Transpose & trace",
         "src": "expanded"
        }
@@ -92,6 +110,12 @@
         "num": "1.1.3.3",
         "title": "Rank–nullity theorem",
         "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.rank.properties-of-rank",
+        "num": "1.1.3.4",
+        "title": "Properties of rank",
+        "src": "notes"
        }
       ]
      },
@@ -284,20 +308,26 @@
       "src": "official",
       "children": [
        {
-        "id": "maths.calculus.definite-improper-integrals.properties-of-definite-integrals",
+        "id": "maths.calculus.definite-improper-integrals.proper-integrals",
         "num": "1.2.4.1",
+        "title": "Proper integrals",
+        "src": "notes"
+       },
+       {
+        "id": "maths.calculus.definite-improper-integrals.properties-of-definite-integrals",
+        "num": "1.2.4.2",
         "title": "Properties of definite integrals",
         "src": "expanded"
        },
        {
         "id": "maths.calculus.definite-improper-integrals.improper-integrals-convergence-tests",
-        "num": "1.2.4.2",
+        "num": "1.2.4.3",
         "title": "Improper integrals (convergence tests)",
         "src": "expanded"
        },
        {
         "id": "maths.calculus.definite-improper-integrals.gamma-beta-functions",
-        "num": "1.2.4.3",
+        "num": "1.2.4.4",
         "title": "Gamma & Beta functions",
         "src": "expanded"
        }
@@ -326,6 +356,12 @@
         "num": "1.2.5.3",
         "title": "Jacobian",
         "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.partial-derivatives.total-derivative",
+        "num": "1.2.5.4",
+        "title": "Total derivative",
+        "src": "notes"
        }
       ]
      },
@@ -822,8 +858,7 @@
         "id": "maths.vector-analysis.vector-operations-differential-operators.gradient",
         "num": "1.4.2.2",
         "title": "Gradient",
-        "src": "official",
-        "note": "directional derivative"
+        "src": "official"
        },
        {
         "id": "maths.vector-analysis.vector-operations-differential-operators.divergence",
@@ -838,8 +873,14 @@
         "src": "official"
        },
        {
-        "id": "maths.vector-analysis.vector-operations-differential-operators.vector-identities",
+        "id": "maths.vector-analysis.vector-operations-differential-operators.directional-derivative",
         "num": "1.4.2.5",
+        "title": "Directional derivative",
+        "src": "notes"
+       },
+       {
+        "id": "maths.vector-analysis.vector-operations-differential-operators.vector-identities",
+        "num": "1.4.2.6",
         "title": "Vector identities",
         "src": "expanded"
        }
@@ -954,6 +995,24 @@
         "num": "1.5.2.3",
         "title": "Conjugate harmonic function",
         "src": "expanded"
+       },
+       {
+        "id": "maths.complex-analysis.analytic-functions.entire-functions",
+        "num": "1.5.2.4",
+        "title": "Entire functions",
+        "src": "notes"
+       },
+       {
+        "id": "maths.complex-analysis.analytic-functions.cauchy-riemann-equations-model-i",
+        "num": "1.5.2.5",
+        "title": "Cauchy–Riemann equations: Model I",
+        "src": "notes"
+       },
+       {
+        "id": "maths.complex-analysis.analytic-functions.cauchy-riemann-equations-model-ii",
+        "num": "1.5.2.6",
+        "title": "Cauchy–Riemann equations: Model II",
+        "src": "notes"
        }
       ]
      },
@@ -1010,26 +1069,52 @@
       ]
      },
      {
-      "id": "maths.complex-analysis.residue-theorem",
+      "id": "maths.complex-analysis.singularities",
       "num": "1.5.7",
+      "title": "Singularities",
+      "src": "notes",
+      "children": [
+       {
+        "id": "maths.complex-analysis.singularities.singular-point",
+        "num": "1.5.7.1",
+        "title": "Singular point",
+        "src": "notes"
+       },
+       {
+        "id": "maths.complex-analysis.singularities.classification-of-singularities",
+        "num": "1.5.7.2",
+        "title": "Classification of singularities",
+        "src": "notes"
+       },
+       {
+        "id": "maths.complex-analysis.singularities.nature-of-singularities",
+        "num": "1.5.7.3",
+        "title": "Nature of singularities",
+        "src": "notes"
+       }
+      ]
+     },
+     {
+      "id": "maths.complex-analysis.residue-theorem",
+      "num": "1.5.8",
       "title": "Residue theorem",
       "src": "official",
       "children": [
        {
         "id": "maths.complex-analysis.residue-theorem.singularities-removable-pole-essential",
-        "num": "1.5.7.1",
+        "num": "1.5.8.1",
         "title": "Singularities (removable, pole, essential)",
         "src": "expanded"
        },
        {
         "id": "maths.complex-analysis.residue-theorem.residue-calculation",
-        "num": "1.5.7.2",
+        "num": "1.5.8.2",
         "title": "Residue calculation",
         "src": "expanded"
        },
        {
         "id": "maths.complex-analysis.residue-theorem.evaluating-real-integrals",
-        "num": "1.5.7.3",
+        "num": "1.5.8.3",
         "title": "Evaluating real integrals",
         "src": "expanded"
        }

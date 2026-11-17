@@ -3,7 +3,7 @@
 # FORMAT
 #   indent 2 spaces per level
 #   *  prefix  = topic is named in the OFFICIAL GATE 2027 EC syllabus PDF (IIT Madras)
-#   ^  prefix  = topic comes from her handwritten notes (Differential Equations image)
+#   ^  prefix  = topic comes from her handwritten notes (Differential Equations, Calculus, Complex Variable, Linear Algebra)
 #   (no prefix) = expanded by us to study depth
 #   Title ~ note            small tag shown next to the title, e.g. "~ 6 types"
 #   Title :: a | b | c      shortcut: a, b, c become leaf children of Title
@@ -17,11 +17,14 @@
       Definition & subspaces
       *Linear dependence & independence
       *Basis & dimension
-    *Matrix algebra :: Types (symmetric, skew, orthogonal, Hermitian, unitary) | Determinant & properties | Inverse & adjoint | Transpose & trace
+      ^Span
+      ^Orthogonal & orthonormal vectors
+    *Matrix algebra :: ^Basic definitions | Types (symmetric, skew, orthogonal, Hermitian, unitary) | Determinant & properties | Inverse & adjoint | Transpose & trace
     *Rank
       Row echelon form
       Rank by elementary operations
       Rank–nullity theorem
+      ^Properties of rank
     *Solution of linear equations - existence and uniqueness
       Consistent / inconsistent systems
       Gauss elimination
@@ -38,6 +41,7 @@
     *Mean value theorems :: Rolle's theorem | Lagrange's MVT | Cauchy's MVT
     *Theorems of integral calculus :: Fundamental theorem | Leibniz rule | Mean value theorem for integrals
     *Definite & improper integrals
+      ^Proper integrals
       Properties of definite integrals
       Improper integrals (convergence tests)
       Gamma & Beta functions
@@ -45,6 +49,7 @@
       Partial derivatives & chain rule
       Euler's theorem (homogeneous functions)
       Jacobian
+      ^Total derivative
     *Maxima & minima
       One variable
       Two variables
@@ -103,9 +108,10 @@
     *Vectors in plane & space :: Dot product | Cross product | Scalar triple product | Vector triple product
     *Vector operations & differential operators
       Scalar & vector fields
-      *Gradient ~ directional derivative
+      *Gradient
       *Divergence
       *Curl
+      ^Directional derivative
       Vector identities
     Line, surface & volume integrals
       Line integral
@@ -117,11 +123,15 @@
       *Stokes' theorem
   *Complex Analysis
     Basics :: Complex numbers & polar form | Functions of a complex variable | Limits & continuity
-    *Analytic functions :: Cauchy–Riemann equations | Harmonic functions | Conjugate harmonic function
+    *Analytic functions :: Cauchy–Riemann equations | Harmonic functions | Conjugate harmonic function | ^Entire functions | ^Cauchy–Riemann equations: Model I | ^Cauchy–Riemann equations: Model II
     *Cauchy's integral theorem
     *Cauchy's integral formula
     *Sequences & series :: Convergence tests
     *Taylor & Laurent series :: Taylor series | Laurent series | Region of convergence
+    ^Singularities
+      ^Singular point
+      ^Classification of singularities
+      ^Nature of singularities
     *Residue theorem
       Singularities (removable, pole, essential)
       Residue calculation
