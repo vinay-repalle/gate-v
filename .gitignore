@@ -1,0 +1,20 @@
+# Firebase local cache / logs (not needed in the repo)
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log*
+ui-debug.log
+
+# Secrets and key files - never commit these
+*.pem
+*.key
+*-service-account*.json
+serviceAccount*.json
+.env
+.env.*
+
+# Node / Python / OS / editor junk
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/

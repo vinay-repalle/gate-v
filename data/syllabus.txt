@@ -1,0 +1,448 @@
+# GATE 2027 ECE syllabus tree  (source of truth — edit this file, then run scripts/build_syllabus.py)
+#
+# FORMAT
+#   indent 2 spaces per level
+#   *  prefix  = topic is named in the OFFICIAL GATE 2027 EC syllabus PDF (IIT Madras)
+#   ^  prefix  = topic comes from her handwritten notes (Differential Equations image)
+#   (no prefix) = expanded by us to study depth
+#   Title ~ note            small tag shown next to the title, e.g. "~ 6 types"
+#   Title :: a | b | c      shortcut: a, b, c become leaf children of Title
+#   Title {pin-id}          pins a stable id so renaming the title never resets progress
+#
+# Official PDF: https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EC_GATE2027_Syllabus.pdf
+
+*Engineering Mathematics {maths}
+  *Linear Algebra
+    *Vector space
+      Definition & subspaces
+      *Linear dependence & independence
+      *Basis & dimension
+    *Matrix algebra :: Types (symmetric, skew, orthogonal, Hermitian, unitary) | Determinant & properties | Inverse & adjoint | Transpose & trace
+    *Rank
+      Row echelon form
+      Rank by elementary operations
+      Rank–nullity theorem
+    *Solution of linear equations - existence and uniqueness
+      Consistent / inconsistent systems
+      Gauss elimination
+      Homogeneous systems (trivial vs non-trivial)
+      Unique, infinite or no solution (rank test)
+    *Eigenvalues & eigenvectors
+      Characteristic equation
+      Properties :: Sum = trace | Product = determinant | Eigenvalues of A², A⁻¹, Aᵀ
+      Cayley–Hamilton theorem
+      Diagonalisation
+      Eigenvalues of special matrices
+  *Calculus
+    Limits, continuity & differentiability :: Standard limits | L'Hôpital rule | Continuity tests | Differentiability
+    *Mean value theorems :: Rolle's theorem | Lagrange's MVT | Cauchy's MVT
+    *Theorems of integral calculus :: Fundamental theorem | Leibniz rule | Mean value theorem for integrals
+    *Definite & improper integrals
+      Properties of definite integrals
+      Improper integrals (convergence tests)
+      Gamma & Beta functions
+    *Partial derivatives
+      Partial derivatives & chain rule
+      Euler's theorem (homogeneous functions)
+      Jacobian
+    *Maxima & minima
+      One variable
+      Two variables
+      Lagrange multipliers
+    *Multiple integrals :: Double integrals & change of order | Triple integrals | Change of variables
+    *Line, surface & volume integrals (see Vector Analysis)
+    *Taylor series :: Taylor series | Maclaurin series | Standard expansions
+  *Differential Equations
+    ^Basics :: Order | Degree | Derivative | Differential | Linear & non-linear | Homogeneous & non-homogeneous
+    ^Ordinary differential equation (ODE)
+      ^Types of solution
+        ^General solution (1st order, 1st degree)
+          ^Variable separable method (VSM)
+          ^Homogeneous equations
+          ^Exact & non-exact
+            Test for exactness
+            Integrating factors
+          ^Linear & non-linear
+            Linear first-order (integrating factor)
+            Bernoulli's equation
+        ^General solution (2nd order or higher) ~ constant coefficient
+          ^Auxiliary equation
+            Real & distinct roots
+            Real & repeated roots
+            Complex roots
+            ^y = yc (homogeneous)
+            ^y = yc + yp (non-homogeneous)
+        ^Particular solution ~ 6 types
+          Q = e^(ax)
+          Q = sin(ax) / cos(ax)
+          Q = polynomial x^m
+          Q = e^(ax)·V
+          Q = x·V
+          Q = x^m·V
+      ^Wronskian of function
+      ^Method of variation of parameters
+      ^Euler–Cauchy's LDE ~ variable coefficient
+      *Initial & boundary value problems
+    ^Partial differential equation (PDE)
+      ^Classification of particular solution ~ 3 types
+        Elliptic
+        Parabolic
+        Hyperbolic
+      ^Solutions of PDE
+        ^Solution of homogeneous linear PDE by VSM
+          Heat equation
+          Wave equation
+          Laplace equation
+        Solution of 1st order linear PDE (Lagrange's method)
+        ^Solution of 1st order non-linear PDE ~ 4 types
+          Type I : f(p, q) = 0
+          Type II : f(z, p, q) = 0
+          Type III : f(x, p) = g(y, q)
+          Type IV : Clairaut's form z = px + qy + f(p, q)
+  *Vector Analysis
+    *Vectors in plane & space :: Dot product | Cross product | Scalar triple product | Vector triple product
+    *Vector operations & differential operators
+      Scalar & vector fields
+      *Gradient ~ directional derivative
+      *Divergence
+      *Curl
+      Vector identities
+    Line, surface & volume integrals
+      Line integral
+      Surface integral
+      Volume integral
+    *Integral theorems
+      *Gauss's divergence theorem
+      *Green's theorem
+      *Stokes' theorem
+  *Complex Analysis
+    Basics :: Complex numbers & polar form | Functions of a complex variable | Limits & continuity
+    *Analytic functions :: Cauchy–Riemann equations | Harmonic functions | Conjugate harmonic function
+    *Cauchy's integral theorem
+    *Cauchy's integral formula
+    *Sequences & series :: Convergence tests
+    *Taylor & Laurent series :: Taylor series | Laurent series | Region of convergence
+    *Residue theorem
+      Singularities (removable, pole, essential)
+      Residue calculation
+      Evaluating real integrals
+  *Probability & Statistics
+    *Descriptive statistics :: *Mean | *Median | *Mode | *Standard deviation | Variance & moments
+    *Combinatorial probability :: Permutations & combinations | Axioms & addition rule | Multiplication rule
+    Conditional probability & independence :: Conditional probability | Independent events | Bayes' theorem
+    Random variables :: Discrete (PMF) | Continuous (PDF) | CDF | Expectation & variance | MGF
+    *Probability distributions
+      *Binomial distribution
+      *Poisson distribution
+      *Exponential distribution
+      *Normal distribution
+      Uniform distribution
+    *Joint & conditional probability :: Joint & marginal distributions | Conditional distributions | Covariance | Independence of random variables
+    *Correlation & regression analysis :: Correlation coefficient | Linear regression (least squares)
+
+*Networks, Signals and Systems {nss}
+  *Circuit Analysis
+    Basics :: Voltage, current, power & energy | Independent & dependent sources | KCL & KVL | Series–parallel & dividers
+    *Node & mesh analysis :: Node analysis | Mesh analysis | Supernode & supermesh
+    Network theorems
+      *Superposition
+      *Thevenin's theorem
+      *Norton's theorem
+      *Reciprocity
+      *Maximum power transfer
+      Millman, Tellegen & substitution
+    *Sinusoidal steady state analysis
+      *Phasors
+      Impedance & admittance
+      *Complex power ~ P, Q, S, pf
+      Resonance (series & parallel, Q-factor)
+      Coupled circuits & mutual inductance
+  *Time & frequency domain analysis of linear circuits
+    Initial conditions
+    *RL, RC & RLC circuits
+      First-order RL
+      First-order RC
+      Second-order RLC ~ over / critical / under-damped
+    *Solution of network equations using Laplace transform
+    *Linear 2-port network parameters :: Z parameters | Y parameters | h parameters | ABCD parameters | Symmetry & reciprocity conditions | Interconnections
+    *Wye–delta transformation
+  *LTI systems
+    *Definition & properties :: Linearity | Time invariance | Memory | Invertibility
+    *Causality
+    *Stability ~ BIBO
+    *Impulse response & convolution :: Convolution integral | Convolution sum | Properties of convolution
+    *Poles & zeroes
+    *Frequency response :: Magnitude & phase response | *Group delay | *Phase delay | Ideal filters
+  *Continuous-time signals
+    Basics :: Classification (energy, power, periodic, even/odd) | Standard signals (step, impulse, ramp, exponential, sinusoid) | Operations (shift, scale, reversal)
+    *Fourier series :: Trigonometric & exponential forms | Dirichlet conditions | Properties & symmetry | Gibbs phenomenon
+    *Fourier transform :: Standard pairs | Properties | Parseval's theorem | Energy & power spectral density
+    Laplace transform :: ROC | Properties | Inverse Laplace | Unilateral transform
+    *Nyquist sampling theorem :: Sampling | Aliasing
+    *Sampling & reconstruction :: Impulse-train sampling | Ideal reconstruction | Practical reconstruction (ZOH)
+  *Discrete-time signals
+    Basics :: Standard sequences | Classification | Difference equations
+    *DTFT :: Definition & properties | Frequency response of DT systems
+    *DFT
+      DFT & properties
+      Circular convolution
+      FFT (DIT / DIF)
+    *z-transform :: ROC | Properties | Inverse z-transform | Stability & causality
+    *FIR & IIR filter design
+      FIR filters
+        Linear-phase types
+        Window method
+        Frequency-sampling method
+      IIR filters
+        Butterworth
+        Chebyshev
+        Bilinear transform
+        Impulse invariance
+      Realisation structures :: Direct form I & II | Cascade | Parallel
+
+*Electronic Devices {devices}
+  *Energy bands in solids :: Conductors, insulators, semiconductors | Band gap | Formation of energy bands
+  *Intrinsic & extrinsic semiconductors
+    Intrinsic semiconductor
+    Extrinsic semiconductors :: n-type | p-type | Donors & acceptors | Compensated semiconductor
+  *Equilibrium carrier concentration :: Mass-action law | Fermi level & its position | Temperature & doping dependence
+  *Direct & indirect band-gap semiconductors
+  *Carrier transport
+    *Drift current & mobility
+    *Diffusion current :: Diffusion current | Einstein relation
+    *Resistivity
+    *Generation & recombination of carriers
+    *Poisson & continuity equations :: Poisson's equation | Continuity equation | Quasi-Fermi levels
+    Hall effect
+  *P–N junction
+    Formation & built-in potential
+    Depletion region :: Depletion width | Electric field | Forward & reverse bias
+    Diode equation & I–V characteristics
+    Capacitances :: Depletion capacitance | Diffusion capacitance
+    *Zener diode :: Zener breakdown | Avalanche breakdown | Zener regulator
+    Schottky diode & ohmic contacts
+  *BJT
+    Structure & modes of operation
+    Current components, α and β
+    Characteristics :: Input & output characteristics | Early effect
+    Models :: Ebers–Moll model | Small-signal hybrid-π model
+  *MOS capacitor
+    Accumulation, depletion & inversion
+    Flat-band & threshold voltage
+    C–V characteristics
+  *MOSFET
+    Enhancement & depletion types
+    Regions of operation :: Cut-off | Triode | Saturation
+    Non-idealities :: Channel-length modulation | Body effect
+    Small-signal model & gm
+  *Scaling in MOSFETs :: Constant-field scaling | Short-channel effects | DIBL | Velocity saturation
+  *Optoelectronic devices
+    *LED
+    *Photodiode
+    *Solar cell :: Voc & Isc | Fill factor | Efficiency
+
+*Analog Circuits {analog}
+  *Diode circuits
+    *Clipping circuits :: Series clippers | Shunt clippers | Biased & combination clippers
+    *Clamping circuits
+    *Rectifiers :: Half-wave | Full-wave & bridge | Ripple & filters
+    Zener voltage regulator
+    Diode models :: Ideal | Constant-drop | Piecewise-linear
+  *BJT amplifiers
+    *Biasing :: Fixed bias | Voltage-divider bias | Q-point & stability factor
+    Configurations :: Common emitter | Common base | Common collector
+    *Small signal analysis :: Hybrid-π model | Gain, Rin & Rout
+    *AC coupling :: Coupling capacitors | Bypass capacitors
+    *Frequency response :: Low-frequency response | High-frequency response (Miller effect) | Gain–bandwidth product
+    Multistage & cascade amplifiers
+    Power amplifiers :: Class A | Class B | Class AB | Class C | Efficiency
+  *MOSFET amplifiers
+    *Biasing & small signal analysis
+    Configurations :: Common source | Common gate | Common drain
+    *Frequency response
+    *Current mirrors :: Simple mirror | Cascode mirror | Wilson mirror | Widlar source
+    *Differential amplifiers :: Differential & common-mode gain | CMRR | BJT differential pair | MOS differential pair
+  Feedback amplifiers
+    Effects of negative feedback :: Gain desensitivity | Bandwidth | Input & output impedance
+    Four topologies :: Voltage-series | Voltage-shunt | Current-series | Current-shunt
+    Stability & Barkhausen criterion
+  *Op-amp circuits
+    Op-amp basics :: Ideal op-amp | Non-idealities (offset, slew rate, CMRR, GBW)
+    *Amplifiers :: Inverting amplifier | Non-inverting amplifier | Difference amplifier | Instrumentation amplifier
+    *Summers
+    *Differentiators
+    *Integrators
+    Non-linear circuits :: Comparator | Precision rectifier | Log / antilog amplifier
+    *Schmitt trigger
+    *Active filters :: Low-pass | High-pass | Band-pass | Band-stop (notch) | Sallen–Key
+    *Oscillators :: RC phase-shift | Wien bridge | LC (Colpitts, Hartley) | Crystal oscillator
+    *Dominant-pole (Miller) compensation
+    *Phase margin
+    Waveform generators & timers :: 555 astable | 555 monostable | Multivibrators
+
+*Digital Circuits {digital}
+  *Number representations
+    Binary, octal, hex & conversions
+    *Integer numbers :: Sign-magnitude | 1's complement | 2's complement | Overflow
+    *Floating-point numbers ~ IEEE 754
+    Codes :: BCD | Gray | Excess-3 | ASCII | Parity
+  *Combinatorial circuits
+    *Boolean algebra :: Postulates & De Morgan | Duality | SOP & POS, minterms & maxterms
+    *Minimization of functions :: Boolean identities | Karnaugh map (incl. don't-cares) | Quine–McCluskey
+    *Logic gates & static CMOS implementations
+      Universal gates (NAND, NOR)
+      CMOS pull-up & pull-down networks
+      Transmission gate
+      Delay & power
+    *Arithmetic circuits :: Half & full adder | Subtractor | Ripple-carry & carry-look-ahead | Multiplier
+    *Code converters
+    *Multiplexers ~ also used to implement functions
+    *Decoders :: Decoders | Encoders & priority encoders | Demultiplexers | Comparators
+    Hazards & PLDs :: Static & dynamic hazards | PLA, PAL | ROM-based logic
+  *Sequential circuits
+    *Latches & flip-flops :: SR latch | D, JK & T flip-flops | Excitation tables | Master–slave & race-around
+    *Shift-registers :: SISO | SIPO | PISO | PIPO | Ring & Johnson counters
+    *Counters :: Asynchronous (ripple) | Synchronous | Mod-N & up/down | Counter design
+    *Finite state machines :: Mealy & Moore | State diagram & table | State minimisation | FSM design
+    *Timing analysis
+      *Propagation delay
+      *Setup time & hold time
+      *Critical path
+      Maximum clock frequency & skew
+  *Data converters
+    *Sample & hold circuits
+    *DACs :: Binary-weighted | R–2R ladder | Resolution & specifications
+    *ADCs :: Flash | Successive approximation | Dual-slope | Counter type | Quantisation error
+  *Semiconductor memories
+    *ROM :: Mask ROM | PROM / EPROM / EEPROM | Flash
+    *SRAM ~ 6T cell
+    *DRAM ~ 1T-1C, refresh
+    Memory organisation & expansion
+  *Computer organization
+    *Machine instructions & addressing modes
+    *ALU
+    *Data-path & control unit :: Hardwired control | Micro-programmed control
+    *Instruction pipelining :: Stages & speed-up | Structural hazards | Data hazards | Control hazards
+
+*Control Systems {control}
+  *Basic control system components
+    Open-loop vs closed-loop
+    System modelling :: Electrical systems | Mechanical systems & analogies | Servo motor, synchro
+  *Feedback principle :: Effect of feedback | Sensitivity | Disturbance rejection
+  *Transfer function
+  *Block diagram representation :: Block diagram reduction rules | Reduction examples
+  *Signal flow graph :: Terminology | Mason's gain formula
+  *Transient & steady-state analysis of LTI systems
+    Standard test signals
+    First-order systems
+    Second-order systems :: Damping ratio & natural frequency | Rise, peak & settling time | Peak overshoot
+    Steady-state error :: System type | Kp, Kv, Ka error constants
+  *Stability criteria
+    Concept of stability (poles, BIBO)
+    *Routh–Hurwitz criterion :: Basic table | Special cases (zero element / zero row)
+    *Nyquist criterion :: Polar plot | Encirclements & stability
+  *Frequency response
+    Resonant peak & bandwidth
+    Time vs frequency response relation
+  *Bode & root-locus plots
+    *Bode plot :: Magnitude plot | Phase plot | Gain margin & phase margin
+    *Root locus :: Construction rules | Effect of adding poles & zeros
+  *Compensators :: Lag compensator | Lead compensator | Lag–lead compensator
+  *PID controller :: P | PI | PD | PID
+  *State variable model & solution of state equation
+    State-space representation
+    Transfer function from state model
+    State-transition matrix & solution
+    Controllability & observability
+
+*Communications {comm}
+  *Random processes
+    Definitions & classification
+    Stationarity :: Strict-sense | Wide-sense
+    *Autocorrelation :: Definition | Properties
+    *Power spectral density ~ Wiener–Khinchin
+    *Properties of white noise
+    Gaussian process
+    *Filtering of random signals through LTI systems
+  *Analog communications
+    Noise basics :: Thermal noise | SNR | Noise figure
+    *Amplitude modulation & demodulation :: DSB-FC (AM) | DSB-SC | SSB | VSB | Modulation index, power & efficiency | Demodulation (envelope, coherent)
+    *Angle modulation & demodulation :: FM & PM | Narrow-band vs wide-band | Carson's rule | Generation & demodulation
+    *Spectra of AM & FM
+    *Superheterodyne receivers :: IF & image frequency | Selectivity & sensitivity
+    Noise performance :: SNR in AM | SNR in FM & threshold effect | Pre-emphasis & de-emphasis
+    Pulse modulation :: PAM | PWM | PPM | TDM & FDM
+  *Information theory
+    *Entropy
+    *Source coding :: Kraft inequality | Huffman coding | Shannon–Fano
+    *Mutual information
+    *Channel capacity theorem :: BSC & BEC | Shannon–Hartley theorem
+  *Digital communications
+    *PCM :: Sampling & quantisation | Quantisation noise & SNR | Companding (μ-law, A-law)
+    *DPCM :: DPCM | Delta modulation
+    Line coding
+    *Digital modulation schemes :: *ASK | *PSK (BPSK, QPSK) | *FSK | *QAM & M-ary | Constellation diagrams
+    *Bandwidth of digital modulation
+    *Inter-symbol interference :: Nyquist criterion | Raised-cosine filter
+    *MAP & ML detection
+    *Matched filter receiver :: Matched filter | Correlator
+    *SNR & BER :: Q-function | Eb/N0 | BER of BPSK / QPSK / FSK
+    *Fundamentals of error correction :: Linear block codes | *Hamming codes | *CRC | Convolutional codes
+
+*Electromagnetics {em}
+  Static fields (foundation)
+    Electrostatics :: Coulomb's law | Gauss's law | Potential & energy | Capacitance
+    Magnetostatics :: Biot–Savart law | Ampère's law | Inductance
+  *Maxwell's equations
+    *Differential & integral forms and their interpretation
+    Displacement current
+    *Boundary conditions
+    *Wave equation
+    *Poynting vector :: Poynting vector | Poynting theorem
+    Time-harmonic fields
+  *Plane waves & properties
+    Uniform plane waves :: Lossless medium | Lossy medium | Intrinsic impedance
+    *Reflection & refraction :: Normal incidence | Oblique incidence | Brewster angle | Total internal reflection
+    *Polarization :: Linear | Circular | Elliptical
+    *Phase & group velocity
+    *Propagation through various media
+    *Skin depth
+  *Transmission lines
+    *Equations :: Line equations | Propagation constant & lossless line
+    *Characteristic impedance
+    Reflection coefficient & VSWR
+    *Impedance transformation
+    *Impedance matching :: Quarter-wave transformer | Single stub | Double stub
+    *Smith chart
+    *S-parameters
+  *Waveguides
+    *Rectangular waveguide :: TE & TM modes | Cut-off frequency | Dominant TE10 mode | Guide wavelength
+    *Circular waveguide
+  *Light propagation in optical fibers :: Step & graded index | Numerical aperture & acceptance angle | Modes | Dispersion & loss
+  *Antennas
+    Basic parameters :: Radiation pattern | Directivity & gain | HPBW | Radiation resistance | Effective area
+    *Dipole & monopole antennas :: Hertzian dipole | Half-wave dipole | Monopole
+    *Linear antenna arrays :: Array factor | Uniform arrays | Broadside & end-fire
+    Friis transmission formula
+
+General Aptitude (GA) {ga} ~ common to every GATE paper
+  Verbal ability
+    Grammar :: Tenses | Articles & prepositions | Subject–verb agreement | Pronouns & modifiers
+    Vocabulary :: Synonyms & antonyms | Idioms & phrases | Word usage
+    Sentences :: Sentence completion | Sentence correction | Para-jumbles
+    Reading comprehension :: Passage questions | Inference & tone
+  Numerical ability
+    Arithmetic :: Percentages | Ratio & proportion | Profit & loss | Simple & compound interest | Averages & mixtures | Time & work | Time, speed & distance
+    Algebra & number sense :: Linear & quadratic equations | Number series | Inequalities
+    Geometry & mensuration :: Areas & volumes | Triangles & circles | Coordinate geometry
+    Data interpretation :: Tables | Bar, line & pie charts
+    Counting & probability :: Permutations & combinations | Basic probability
+  Reasoning
+    Verbal reasoning :: Analogies | Syllogisms | Venn diagrams | Coding–decoding
+    Logical puzzles :: Seating arrangements | Directions & distances | Blood relations | Ordering & ranking
+    Critical reasoning
+  Spatial aptitude
+    Paper folding & cutting
+    Cubes & dice
+    Mirror & water images
+    Pattern completion & embedded figures

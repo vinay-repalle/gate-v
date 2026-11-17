@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GATE 2027 ECE Tracker</title>
+<meta name="description" content="GATE 2027 ECE syllabus tree with progress tracking">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f4bd0'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='white' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1>GATE 2027 · ECE</h1>
+  <p class="sub">Tap the circle: not started → partial → done. Parent topics fill in automatically.</p>
+  <div class="overall">
+    <div class="big" id="bigPct">0%</div>
+    <div class="obar">
+      <div class="bar" id="oBar"></div>
+      <div class="ostats" id="oStats"></div>
+    </div>
+  </div>
+  <div class="cards" id="cards"></div>
+  <div class="legend" id="legend"></div>
+</header>
+
+<div class="tools"><div class="tools-in">
+  <input class="search" id="q" type="search" placeholder="Search any topic or note…" aria-label="Search topics">
+  <div class="row2">
+    <div class="chips" id="chips" role="group" aria-label="Filter">
+      <button class="chip" data-f="all" aria-pressed="true">All</button>
+      <button class="chip" data-f="0" aria-pressed="false">Not started</button>
+      <button class="chip" data-f="1" aria-pressed="false">Partial</button>
+      <button class="chip" data-f="2" aria-pressed="false">Done</button>
+      <button class="chip" data-f="rev" aria-pressed="false">⚑ Revise</button>
+    </div>
+    <button class="mini" id="expAll">Expand all</button>
+    <button class="mini" id="colAll">Collapse all</button>
+  </div>
+</div></div>
+
+<main id="tree" aria-live="polite"><div class="empty">Loading syllabus…</div></main>
+
+<footer>
+  <p>Source: official GATE 2027 EC syllabus (IIT Madras, <a href="https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EC_GATE2027_Syllabus.pdf" target="_blank" rel="noopener">PDF</a>). Topics tagged <span class="pill official">official</span> are named in it; <span class="pill notes">her notes</span> come from handwritten notes; untagged ones are expanded for study depth. General Aptitude is the standard GATE pattern. Always cross-check with the official PDF.</p>
+  <p>Progress: <b id="sync">…</b></p>
+  <p id="acct"></p>
+  <p>Something missing? Open ⋯ on any topic and use “Add sub-point”.</p>
+</footer>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<div class="auth" id="auth" hidden>
+  <form class="authBox" id="authForm" autocomplete="on">
+    <h2 id="authTitle">Welcome back</h2>
+    <p class="authSub">GATE 2027 · ECE tracker. Your progress follows you to any phone or laptop.</p>
+    <label for="authName">Your name</label>
+    <input id="authName" name="name" type="text" autocomplete="username" maxlength="20" placeholder="e.g. Priya" required>
+    <label for="authPin">4-digit PIN</label>
+    <input id="authPin" name="pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="current-password" placeholder="••••" required>
+    <p class="authErr" id="authErr" role="alert"></p>
+    <button class="go" id="authGo" type="submit">Sign in</button>
+    <button class="link" id="authSwitch" type="button">New here? Create an account</button>
+  </form>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

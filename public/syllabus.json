@@ -1,0 +1,5733 @@
+[
+ {
+  "id": "maths",
+  "num": "1",
+  "title": "Engineering Mathematics",
+  "src": "official",
+  "children": [
+   {
+    "id": "maths.linear-algebra",
+    "num": "1.1",
+    "title": "Linear Algebra",
+    "src": "official",
+    "children": [
+     {
+      "id": "maths.linear-algebra.vector-space",
+      "num": "1.1.1",
+      "title": "Vector space",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.linear-algebra.vector-space.definition-subspaces",
+        "num": "1.1.1.1",
+        "title": "Definition & subspaces",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.vector-space.linear-dependence-independence",
+        "num": "1.1.1.2",
+        "title": "Linear dependence & independence",
+        "src": "official"
+       },
+       {
+        "id": "maths.linear-algebra.vector-space.basis-dimension",
+        "num": "1.1.1.3",
+        "title": "Basis & dimension",
+        "src": "official"
+       }
+      ]
+     },
+     {
+      "id": "maths.linear-algebra.matrix-algebra",
+      "num": "1.1.2",
+      "title": "Matrix algebra",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.linear-algebra.matrix-algebra.types-symmetric-skew-orthogonal-hermitia",
+        "num": "1.1.2.1",
+        "title": "Types (symmetric, skew, orthogonal, Hermitian, unitary)",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.matrix-algebra.determinant-properties",
+        "num": "1.1.2.2",
+        "title": "Determinant & properties",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.matrix-algebra.inverse-adjoint",
+        "num": "1.1.2.3",
+        "title": "Inverse & adjoint",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.matrix-algebra.transpose-trace",
+        "num": "1.1.2.4",
+        "title": "Transpose & trace",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.linear-algebra.rank",
+      "num": "1.1.3",
+      "title": "Rank",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.linear-algebra.rank.row-echelon-form",
+        "num": "1.1.3.1",
+        "title": "Row echelon form",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.rank.rank-by-elementary-operations",
+        "num": "1.1.3.2",
+        "title": "Rank by elementary operations",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.rank.rank-nullity-theorem",
+        "num": "1.1.3.3",
+        "title": "Rank–nullity theorem",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.linear-algebra.solution-of-linear-equations-existence-a",
+      "num": "1.1.4",
+      "title": "Solution of linear equations - existence and uniqueness",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.linear-algebra.solution-of-linear-equations-existence-a.consistent-inconsistent-systems",
+        "num": "1.1.4.1",
+        "title": "Consistent / inconsistent systems",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.solution-of-linear-equations-existence-a.gauss-elimination",
+        "num": "1.1.4.2",
+        "title": "Gauss elimination",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.solution-of-linear-equations-existence-a.homogeneous-systems-trivial-vs-non-trivi",
+        "num": "1.1.4.3",
+        "title": "Homogeneous systems (trivial vs non-trivial)",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.solution-of-linear-equations-existence-a.unique-infinite-or-no-solution-rank-test",
+        "num": "1.1.4.4",
+        "title": "Unique, infinite or no solution (rank test)",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.linear-algebra.eigenvalues-eigenvectors",
+      "num": "1.1.5",
+      "title": "Eigenvalues & eigenvectors",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.linear-algebra.eigenvalues-eigenvectors.characteristic-equation",
+        "num": "1.1.5.1",
+        "title": "Characteristic equation",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.eigenvalues-eigenvectors.properties",
+        "num": "1.1.5.2",
+        "title": "Properties",
+        "src": "expanded",
+        "children": [
+         {
+          "id": "maths.linear-algebra.eigenvalues-eigenvectors.properties.sum-trace",
+          "num": "1.1.5.2.1",
+          "title": "Sum = trace",
+          "src": "expanded"
+         },
+         {
+          "id": "maths.linear-algebra.eigenvalues-eigenvectors.properties.product-determinant",
+          "num": "1.1.5.2.2",
+          "title": "Product = determinant",
+          "src": "expanded"
+         },
+         {
+          "id": "maths.linear-algebra.eigenvalues-eigenvectors.properties.eigenvalues-of-a-a-a",
+          "num": "1.1.5.2.3",
+          "title": "Eigenvalues of A², A⁻¹, Aᵀ",
+          "src": "expanded"
+         }
+        ]
+       },
+       {
+        "id": "maths.linear-algebra.eigenvalues-eigenvectors.cayley-hamilton-theorem",
+        "num": "1.1.5.3",
+        "title": "Cayley–Hamilton theorem",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.eigenvalues-eigenvectors.diagonalisation",
+        "num": "1.1.5.4",
+        "title": "Diagonalisation",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.linear-algebra.eigenvalues-eigenvectors.eigenvalues-of-special-matrices",
+        "num": "1.1.5.5",
+        "title": "Eigenvalues of special matrices",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "maths.calculus",
+    "num": "1.2",
+    "title": "Calculus",
+    "src": "official",
+    "children": [
+     {
+      "id": "maths.calculus.limits-continuity-differentiability",
+      "num": "1.2.1",
+      "title": "Limits, continuity & differentiability",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "maths.calculus.limits-continuity-differentiability.standard-limits",
+        "num": "1.2.1.1",
+        "title": "Standard limits",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.limits-continuity-differentiability.l-h-pital-rule",
+        "num": "1.2.1.2",
+        "title": "L'Hôpital rule",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.limits-continuity-differentiability.continuity-tests",
+        "num": "1.2.1.3",
+        "title": "Continuity tests",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.limits-continuity-differentiability.differentiability",
+        "num": "1.2.1.4",
+        "title": "Differentiability",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.calculus.mean-value-theorems",
+      "num": "1.2.2",
+      "title": "Mean value theorems",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.calculus.mean-value-theorems.rolle-s-theorem",
+        "num": "1.2.2.1",
+        "title": "Rolle's theorem",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.mean-value-theorems.lagrange-s-mvt",
+        "num": "1.2.2.2",
+        "title": "Lagrange's MVT",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.mean-value-theorems.cauchy-s-mvt",
+        "num": "1.2.2.3",
+        "title": "Cauchy's MVT",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.calculus.theorems-of-integral-calculus",
+      "num": "1.2.3",
+      "title": "Theorems of integral calculus",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.calculus.theorems-of-integral-calculus.fundamental-theorem",
+        "num": "1.2.3.1",
+        "title": "Fundamental theorem",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.theorems-of-integral-calculus.leibniz-rule",
+        "num": "1.2.3.2",
+        "title": "Leibniz rule",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.theorems-of-integral-calculus.mean-value-theorem-for-integrals",
+        "num": "1.2.3.3",
+        "title": "Mean value theorem for integrals",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.calculus.definite-improper-integrals",
+      "num": "1.2.4",
+      "title": "Definite & improper integrals",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.calculus.definite-improper-integrals.properties-of-definite-integrals",
+        "num": "1.2.4.1",
+        "title": "Properties of definite integrals",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.definite-improper-integrals.improper-integrals-convergence-tests",
+        "num": "1.2.4.2",
+        "title": "Improper integrals (convergence tests)",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.definite-improper-integrals.gamma-beta-functions",
+        "num": "1.2.4.3",
+        "title": "Gamma & Beta functions",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.calculus.partial-derivatives",
+      "num": "1.2.5",
+      "title": "Partial derivatives",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.calculus.partial-derivatives.partial-derivatives-chain-rule",
+        "num": "1.2.5.1",
+        "title": "Partial derivatives & chain rule",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.partial-derivatives.euler-s-theorem-homogeneous-functions",
+        "num": "1.2.5.2",
+        "title": "Euler's theorem (homogeneous functions)",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.partial-derivatives.jacobian",
+        "num": "1.2.5.3",
+        "title": "Jacobian",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.calculus.maxima-minima",
+      "num": "1.2.6",
+      "title": "Maxima & minima",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.calculus.maxima-minima.one-variable",
+        "num": "1.2.6.1",
+        "title": "One variable",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.maxima-minima.two-variables",
+        "num": "1.2.6.2",
+        "title": "Two variables",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.maxima-minima.lagrange-multipliers",
+        "num": "1.2.6.3",
+        "title": "Lagrange multipliers",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.calculus.multiple-integrals",
+      "num": "1.2.7",
+      "title": "Multiple integrals",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.calculus.multiple-integrals.double-integrals-change-of-order",
+        "num": "1.2.7.1",
+        "title": "Double integrals & change of order",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.multiple-integrals.triple-integrals",
+        "num": "1.2.7.2",
+        "title": "Triple integrals",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.multiple-integrals.change-of-variables",
+        "num": "1.2.7.3",
+        "title": "Change of variables",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.calculus.line-surface-volume-integrals-see-vector",
+      "num": "1.2.8",
+      "title": "Line, surface & volume integrals (see Vector Analysis)",
+      "src": "official"
+     },
+     {
+      "id": "maths.calculus.taylor-series",
+      "num": "1.2.9",
+      "title": "Taylor series",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.calculus.taylor-series.taylor-series",
+        "num": "1.2.9.1",
+        "title": "Taylor series",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.taylor-series.maclaurin-series",
+        "num": "1.2.9.2",
+        "title": "Maclaurin series",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.calculus.taylor-series.standard-expansions",
+        "num": "1.2.9.3",
+        "title": "Standard expansions",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "maths.differential-equations",
+    "num": "1.3",
+    "title": "Differential Equations",
+    "src": "official",
+    "children": [
+     {
+      "id": "maths.differential-equations.basics",
+      "num": "1.3.1",
+      "title": "Basics",
+      "src": "notes",
+      "children": [
+       {
+        "id": "maths.differential-equations.basics.order",
+        "num": "1.3.1.1",
+        "title": "Order",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.differential-equations.basics.degree",
+        "num": "1.3.1.2",
+        "title": "Degree",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.differential-equations.basics.derivative",
+        "num": "1.3.1.3",
+        "title": "Derivative",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.differential-equations.basics.differential",
+        "num": "1.3.1.4",
+        "title": "Differential",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.differential-equations.basics.linear-non-linear",
+        "num": "1.3.1.5",
+        "title": "Linear & non-linear",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.differential-equations.basics.homogeneous-non-homogeneous",
+        "num": "1.3.1.6",
+        "title": "Homogeneous & non-homogeneous",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.differential-equations.ordinary-differential-equation-ode",
+      "num": "1.3.2",
+      "title": "Ordinary differential equation (ODE)",
+      "src": "notes",
+      "children": [
+       {
+        "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution",
+        "num": "1.3.2.1",
+        "title": "Types of solution",
+        "src": "notes",
+        "children": [
+         {
+          "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-1st-order-1st-degree",
+          "num": "1.3.2.1.1",
+          "title": "General solution (1st order, 1st degree)",
+          "src": "notes",
+          "children": [
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-1st-order-1st-degree.variable-separable-method-vsm",
+            "num": "1.3.2.1.1.1",
+            "title": "Variable separable method (VSM)",
+            "src": "notes"
+           },
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-1st-order-1st-degree.homogeneous-equations",
+            "num": "1.3.2.1.1.2",
+            "title": "Homogeneous equations",
+            "src": "notes"
+           },
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-1st-order-1st-degree.exact-non-exact",
+            "num": "1.3.2.1.1.3",
+            "title": "Exact & non-exact",
+            "src": "notes",
+            "children": [
+             {
+              "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-1st-order-1st-degree.exact-non-exact.test-for-exactness",
+              "num": "1.3.2.1.1.3.1",
+              "title": "Test for exactness",
+              "src": "expanded"
+             },
+             {
+              "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-1st-order-1st-degree.exact-non-exact.integrating-factors",
+              "num": "1.3.2.1.1.3.2",
+              "title": "Integrating factors",
+              "src": "expanded"
+             }
+            ]
+           },
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-1st-order-1st-degree.linear-non-linear",
+            "num": "1.3.2.1.1.4",
+            "title": "Linear & non-linear",
+            "src": "notes",
+            "children": [
+             {
+              "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-1st-order-1st-degree.linear-non-linear.linear-first-order-integrating-factor",
+              "num": "1.3.2.1.1.4.1",
+              "title": "Linear first-order (integrating factor)",
+              "src": "expanded"
+             },
+             {
+              "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-1st-order-1st-degree.linear-non-linear.bernoulli-s-equation",
+              "num": "1.3.2.1.1.4.2",
+              "title": "Bernoulli's equation",
+              "src": "expanded"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-2nd-order-or-higher",
+          "num": "1.3.2.1.2",
+          "title": "General solution (2nd order or higher)",
+          "src": "notes",
+          "note": "constant coefficient",
+          "children": [
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-2nd-order-or-higher.auxiliary-equation",
+            "num": "1.3.2.1.2.1",
+            "title": "Auxiliary equation",
+            "src": "notes",
+            "children": [
+             {
+              "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-2nd-order-or-higher.auxiliary-equation.real-distinct-roots",
+              "num": "1.3.2.1.2.1.1",
+              "title": "Real & distinct roots",
+              "src": "expanded"
+             },
+             {
+              "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-2nd-order-or-higher.auxiliary-equation.real-repeated-roots",
+              "num": "1.3.2.1.2.1.2",
+              "title": "Real & repeated roots",
+              "src": "expanded"
+             },
+             {
+              "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-2nd-order-or-higher.auxiliary-equation.complex-roots",
+              "num": "1.3.2.1.2.1.3",
+              "title": "Complex roots",
+              "src": "expanded"
+             },
+             {
+              "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-2nd-order-or-higher.auxiliary-equation.y-yc-homogeneous",
+              "num": "1.3.2.1.2.1.4",
+              "title": "y = yc (homogeneous)",
+              "src": "notes"
+             },
+             {
+              "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.general-solution-2nd-order-or-higher.auxiliary-equation.y-yc-yp-non-homogeneous",
+              "num": "1.3.2.1.2.1.5",
+              "title": "y = yc + yp (non-homogeneous)",
+              "src": "notes"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.particular-solution",
+          "num": "1.3.2.1.3",
+          "title": "Particular solution",
+          "src": "notes",
+          "note": "6 types",
+          "children": [
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.particular-solution.q-e-ax",
+            "num": "1.3.2.1.3.1",
+            "title": "Q = e^(ax)",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.particular-solution.q-sin-ax-cos-ax",
+            "num": "1.3.2.1.3.2",
+            "title": "Q = sin(ax) / cos(ax)",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.particular-solution.q-polynomial-x-m",
+            "num": "1.3.2.1.3.3",
+            "title": "Q = polynomial x^m",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.particular-solution.q-e-ax-v",
+            "num": "1.3.2.1.3.4",
+            "title": "Q = e^(ax)·V",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.particular-solution.q-x-v",
+            "num": "1.3.2.1.3.5",
+            "title": "Q = x·V",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.ordinary-differential-equation-ode.types-of-solution.particular-solution.q-x-m-v",
+            "num": "1.3.2.1.3.6",
+            "title": "Q = x^m·V",
+            "src": "expanded"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "id": "maths.differential-equations.ordinary-differential-equation-ode.wronskian-of-function",
+        "num": "1.3.2.2",
+        "title": "Wronskian of function",
+        "src": "notes"
+       },
+       {
+        "id": "maths.differential-equations.ordinary-differential-equation-ode.method-of-variation-of-parameters",
+        "num": "1.3.2.3",
+        "title": "Method of variation of parameters",
+        "src": "notes"
+       },
+       {
+        "id": "maths.differential-equations.ordinary-differential-equation-ode.euler-cauchy-s-lde",
+        "num": "1.3.2.4",
+        "title": "Euler–Cauchy's LDE",
+        "src": "notes",
+        "note": "variable coefficient"
+       },
+       {
+        "id": "maths.differential-equations.ordinary-differential-equation-ode.initial-boundary-value-problems",
+        "num": "1.3.2.5",
+        "title": "Initial & boundary value problems",
+        "src": "official"
+       }
+      ]
+     },
+     {
+      "id": "maths.differential-equations.partial-differential-equation-pde",
+      "num": "1.3.3",
+      "title": "Partial differential equation (PDE)",
+      "src": "notes",
+      "children": [
+       {
+        "id": "maths.differential-equations.partial-differential-equation-pde.classification-of-particular-solution",
+        "num": "1.3.3.1",
+        "title": "Classification of particular solution",
+        "src": "notes",
+        "note": "3 types",
+        "children": [
+         {
+          "id": "maths.differential-equations.partial-differential-equation-pde.classification-of-particular-solution.elliptic",
+          "num": "1.3.3.1.1",
+          "title": "Elliptic",
+          "src": "expanded"
+         },
+         {
+          "id": "maths.differential-equations.partial-differential-equation-pde.classification-of-particular-solution.parabolic",
+          "num": "1.3.3.1.2",
+          "title": "Parabolic",
+          "src": "expanded"
+         },
+         {
+          "id": "maths.differential-equations.partial-differential-equation-pde.classification-of-particular-solution.hyperbolic",
+          "num": "1.3.3.1.3",
+          "title": "Hyperbolic",
+          "src": "expanded"
+         }
+        ]
+       },
+       {
+        "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde",
+        "num": "1.3.3.2",
+        "title": "Solutions of PDE",
+        "src": "notes",
+        "children": [
+         {
+          "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-homogeneous-linear-pde-by-vs",
+          "num": "1.3.3.2.1",
+          "title": "Solution of homogeneous linear PDE by VSM",
+          "src": "notes",
+          "children": [
+           {
+            "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-homogeneous-linear-pde-by-vs.heat-equation",
+            "num": "1.3.3.2.1.1",
+            "title": "Heat equation",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-homogeneous-linear-pde-by-vs.wave-equation",
+            "num": "1.3.3.2.1.2",
+            "title": "Wave equation",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-homogeneous-linear-pde-by-vs.laplace-equation",
+            "num": "1.3.3.2.1.3",
+            "title": "Laplace equation",
+            "src": "expanded"
+           }
+          ]
+         },
+         {
+          "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-1st-order-linear-pde-lagrang",
+          "num": "1.3.3.2.2",
+          "title": "Solution of 1st order linear PDE (Lagrange's method)",
+          "src": "expanded"
+         },
+         {
+          "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-1st-order-non-linear-pde",
+          "num": "1.3.3.2.3",
+          "title": "Solution of 1st order non-linear PDE",
+          "src": "notes",
+          "note": "4 types",
+          "children": [
+           {
+            "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-1st-order-non-linear-pde.type-i-f-p-q-0",
+            "num": "1.3.3.2.3.1",
+            "title": "Type I : f(p, q) = 0",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-1st-order-non-linear-pde.type-ii-f-z-p-q-0",
+            "num": "1.3.3.2.3.2",
+            "title": "Type II : f(z, p, q) = 0",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-1st-order-non-linear-pde.type-iii-f-x-p-g-y-q",
+            "num": "1.3.3.2.3.3",
+            "title": "Type III : f(x, p) = g(y, q)",
+            "src": "expanded"
+           },
+           {
+            "id": "maths.differential-equations.partial-differential-equation-pde.solutions-of-pde.solution-of-1st-order-non-linear-pde.type-iv-clairaut-s-form-z-px-qy-f-p-q",
+            "num": "1.3.3.2.3.4",
+            "title": "Type IV : Clairaut's form z = px + qy + f(p, q)",
+            "src": "expanded"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "maths.vector-analysis",
+    "num": "1.4",
+    "title": "Vector Analysis",
+    "src": "official",
+    "children": [
+     {
+      "id": "maths.vector-analysis.vectors-in-plane-space",
+      "num": "1.4.1",
+      "title": "Vectors in plane & space",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.vector-analysis.vectors-in-plane-space.dot-product",
+        "num": "1.4.1.1",
+        "title": "Dot product",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.vector-analysis.vectors-in-plane-space.cross-product",
+        "num": "1.4.1.2",
+        "title": "Cross product",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.vector-analysis.vectors-in-plane-space.scalar-triple-product",
+        "num": "1.4.1.3",
+        "title": "Scalar triple product",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.vector-analysis.vectors-in-plane-space.vector-triple-product",
+        "num": "1.4.1.4",
+        "title": "Vector triple product",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.vector-analysis.vector-operations-differential-operators",
+      "num": "1.4.2",
+      "title": "Vector operations & differential operators",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.vector-analysis.vector-operations-differential-operators.scalar-vector-fields",
+        "num": "1.4.2.1",
+        "title": "Scalar & vector fields",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.vector-analysis.vector-operations-differential-operators.gradient",
+        "num": "1.4.2.2",
+        "title": "Gradient",
+        "src": "official",
+        "note": "directional derivative"
+       },
+       {
+        "id": "maths.vector-analysis.vector-operations-differential-operators.divergence",
+        "num": "1.4.2.3",
+        "title": "Divergence",
+        "src": "official"
+       },
+       {
+        "id": "maths.vector-analysis.vector-operations-differential-operators.curl",
+        "num": "1.4.2.4",
+        "title": "Curl",
+        "src": "official"
+       },
+       {
+        "id": "maths.vector-analysis.vector-operations-differential-operators.vector-identities",
+        "num": "1.4.2.5",
+        "title": "Vector identities",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.vector-analysis.line-surface-volume-integrals",
+      "num": "1.4.3",
+      "title": "Line, surface & volume integrals",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "maths.vector-analysis.line-surface-volume-integrals.line-integral",
+        "num": "1.4.3.1",
+        "title": "Line integral",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.vector-analysis.line-surface-volume-integrals.surface-integral",
+        "num": "1.4.3.2",
+        "title": "Surface integral",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.vector-analysis.line-surface-volume-integrals.volume-integral",
+        "num": "1.4.3.3",
+        "title": "Volume integral",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.vector-analysis.integral-theorems",
+      "num": "1.4.4",
+      "title": "Integral theorems",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.vector-analysis.integral-theorems.gauss-s-divergence-theorem",
+        "num": "1.4.4.1",
+        "title": "Gauss's divergence theorem",
+        "src": "official"
+       },
+       {
+        "id": "maths.vector-analysis.integral-theorems.green-s-theorem",
+        "num": "1.4.4.2",
+        "title": "Green's theorem",
+        "src": "official"
+       },
+       {
+        "id": "maths.vector-analysis.integral-theorems.stokes-theorem",
+        "num": "1.4.4.3",
+        "title": "Stokes' theorem",
+        "src": "official"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "maths.complex-analysis",
+    "num": "1.5",
+    "title": "Complex Analysis",
+    "src": "official",
+    "children": [
+     {
+      "id": "maths.complex-analysis.basics",
+      "num": "1.5.1",
+      "title": "Basics",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "maths.complex-analysis.basics.complex-numbers-polar-form",
+        "num": "1.5.1.1",
+        "title": "Complex numbers & polar form",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.complex-analysis.basics.functions-of-a-complex-variable",
+        "num": "1.5.1.2",
+        "title": "Functions of a complex variable",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.complex-analysis.basics.limits-continuity",
+        "num": "1.5.1.3",
+        "title": "Limits & continuity",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.complex-analysis.analytic-functions",
+      "num": "1.5.2",
+      "title": "Analytic functions",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.complex-analysis.analytic-functions.cauchy-riemann-equations",
+        "num": "1.5.2.1",
+        "title": "Cauchy–Riemann equations",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.complex-analysis.analytic-functions.harmonic-functions",
+        "num": "1.5.2.2",
+        "title": "Harmonic functions",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.complex-analysis.analytic-functions.conjugate-harmonic-function",
+        "num": "1.5.2.3",
+        "title": "Conjugate harmonic function",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.complex-analysis.cauchy-s-integral-theorem",
+      "num": "1.5.3",
+      "title": "Cauchy's integral theorem",
+      "src": "official"
+     },
+     {
+      "id": "maths.complex-analysis.cauchy-s-integral-formula",
+      "num": "1.5.4",
+      "title": "Cauchy's integral formula",
+      "src": "official"
+     },
+     {
+      "id": "maths.complex-analysis.sequences-series",
+      "num": "1.5.5",
+      "title": "Sequences & series",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.complex-analysis.sequences-series.convergence-tests",
+        "num": "1.5.5.1",
+        "title": "Convergence tests",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.complex-analysis.taylor-laurent-series",
+      "num": "1.5.6",
+      "title": "Taylor & Laurent series",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.complex-analysis.taylor-laurent-series.taylor-series",
+        "num": "1.5.6.1",
+        "title": "Taylor series",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.complex-analysis.taylor-laurent-series.laurent-series",
+        "num": "1.5.6.2",
+        "title": "Laurent series",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.complex-analysis.taylor-laurent-series.region-of-convergence",
+        "num": "1.5.6.3",
+        "title": "Region of convergence",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.complex-analysis.residue-theorem",
+      "num": "1.5.7",
+      "title": "Residue theorem",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.complex-analysis.residue-theorem.singularities-removable-pole-essential",
+        "num": "1.5.7.1",
+        "title": "Singularities (removable, pole, essential)",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.complex-analysis.residue-theorem.residue-calculation",
+        "num": "1.5.7.2",
+        "title": "Residue calculation",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.complex-analysis.residue-theorem.evaluating-real-integrals",
+        "num": "1.5.7.3",
+        "title": "Evaluating real integrals",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "maths.probability-statistics",
+    "num": "1.6",
+    "title": "Probability & Statistics",
+    "src": "official",
+    "children": [
+     {
+      "id": "maths.probability-statistics.descriptive-statistics",
+      "num": "1.6.1",
+      "title": "Descriptive statistics",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.probability-statistics.descriptive-statistics.mean",
+        "num": "1.6.1.1",
+        "title": "Mean",
+        "src": "official"
+       },
+       {
+        "id": "maths.probability-statistics.descriptive-statistics.median",
+        "num": "1.6.1.2",
+        "title": "Median",
+        "src": "official"
+       },
+       {
+        "id": "maths.probability-statistics.descriptive-statistics.mode",
+        "num": "1.6.1.3",
+        "title": "Mode",
+        "src": "official"
+       },
+       {
+        "id": "maths.probability-statistics.descriptive-statistics.standard-deviation",
+        "num": "1.6.1.4",
+        "title": "Standard deviation",
+        "src": "official"
+       },
+       {
+        "id": "maths.probability-statistics.descriptive-statistics.variance-moments",
+        "num": "1.6.1.5",
+        "title": "Variance & moments",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.probability-statistics.combinatorial-probability",
+      "num": "1.6.2",
+      "title": "Combinatorial probability",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.probability-statistics.combinatorial-probability.permutations-combinations",
+        "num": "1.6.2.1",
+        "title": "Permutations & combinations",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.combinatorial-probability.axioms-addition-rule",
+        "num": "1.6.2.2",
+        "title": "Axioms & addition rule",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.combinatorial-probability.multiplication-rule",
+        "num": "1.6.2.3",
+        "title": "Multiplication rule",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.probability-statistics.conditional-probability-independence",
+      "num": "1.6.3",
+      "title": "Conditional probability & independence",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "maths.probability-statistics.conditional-probability-independence.conditional-probability",
+        "num": "1.6.3.1",
+        "title": "Conditional probability",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.conditional-probability-independence.independent-events",
+        "num": "1.6.3.2",
+        "title": "Independent events",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.conditional-probability-independence.bayes-theorem",
+        "num": "1.6.3.3",
+        "title": "Bayes' theorem",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.probability-statistics.random-variables",
+      "num": "1.6.4",
+      "title": "Random variables",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "maths.probability-statistics.random-variables.discrete-pmf",
+        "num": "1.6.4.1",
+        "title": "Discrete (PMF)",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.random-variables.continuous-pdf",
+        "num": "1.6.4.2",
+        "title": "Continuous (PDF)",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.random-variables.cdf",
+        "num": "1.6.4.3",
+        "title": "CDF",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.random-variables.expectation-variance",
+        "num": "1.6.4.4",
+        "title": "Expectation & variance",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.random-variables.mgf",
+        "num": "1.6.4.5",
+        "title": "MGF",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.probability-statistics.probability-distributions",
+      "num": "1.6.5",
+      "title": "Probability distributions",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.probability-statistics.probability-distributions.binomial-distribution",
+        "num": "1.6.5.1",
+        "title": "Binomial distribution",
+        "src": "official"
+       },
+       {
+        "id": "maths.probability-statistics.probability-distributions.poisson-distribution",
+        "num": "1.6.5.2",
+        "title": "Poisson distribution",
+        "src": "official"
+       },
+       {
+        "id": "maths.probability-statistics.probability-distributions.exponential-distribution",
+        "num": "1.6.5.3",
+        "title": "Exponential distribution",
+        "src": "official"
+       },
+       {
+        "id": "maths.probability-statistics.probability-distributions.normal-distribution",
+        "num": "1.6.5.4",
+        "title": "Normal distribution",
+        "src": "official"
+       },
+       {
+        "id": "maths.probability-statistics.probability-distributions.uniform-distribution",
+        "num": "1.6.5.5",
+        "title": "Uniform distribution",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.probability-statistics.joint-conditional-probability",
+      "num": "1.6.6",
+      "title": "Joint & conditional probability",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.probability-statistics.joint-conditional-probability.joint-marginal-distributions",
+        "num": "1.6.6.1",
+        "title": "Joint & marginal distributions",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.joint-conditional-probability.conditional-distributions",
+        "num": "1.6.6.2",
+        "title": "Conditional distributions",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.joint-conditional-probability.covariance",
+        "num": "1.6.6.3",
+        "title": "Covariance",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.joint-conditional-probability.independence-of-random-variables",
+        "num": "1.6.6.4",
+        "title": "Independence of random variables",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "maths.probability-statistics.correlation-regression-analysis",
+      "num": "1.6.7",
+      "title": "Correlation & regression analysis",
+      "src": "official",
+      "children": [
+       {
+        "id": "maths.probability-statistics.correlation-regression-analysis.correlation-coefficient",
+        "num": "1.6.7.1",
+        "title": "Correlation coefficient",
+        "src": "expanded"
+       },
+       {
+        "id": "maths.probability-statistics.correlation-regression-analysis.linear-regression-least-squares",
+        "num": "1.6.7.2",
+        "title": "Linear regression (least squares)",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nss",
+  "num": "2",
+  "title": "Networks, Signals and Systems",
+  "src": "official",
+  "children": [
+   {
+    "id": "nss.circuit-analysis",
+    "num": "2.1",
+    "title": "Circuit Analysis",
+    "src": "official",
+    "children": [
+     {
+      "id": "nss.circuit-analysis.basics",
+      "num": "2.1.1",
+      "title": "Basics",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "nss.circuit-analysis.basics.voltage-current-power-energy",
+        "num": "2.1.1.1",
+        "title": "Voltage, current, power & energy",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.circuit-analysis.basics.independent-dependent-sources",
+        "num": "2.1.1.2",
+        "title": "Independent & dependent sources",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.circuit-analysis.basics.kcl-kvl",
+        "num": "2.1.1.3",
+        "title": "KCL & KVL",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.circuit-analysis.basics.series-parallel-dividers",
+        "num": "2.1.1.4",
+        "title": "Series–parallel & dividers",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.circuit-analysis.node-mesh-analysis",
+      "num": "2.1.2",
+      "title": "Node & mesh analysis",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.circuit-analysis.node-mesh-analysis.node-analysis",
+        "num": "2.1.2.1",
+        "title": "Node analysis",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.circuit-analysis.node-mesh-analysis.mesh-analysis",
+        "num": "2.1.2.2",
+        "title": "Mesh analysis",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.circuit-analysis.node-mesh-analysis.supernode-supermesh",
+        "num": "2.1.2.3",
+        "title": "Supernode & supermesh",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.circuit-analysis.network-theorems",
+      "num": "2.1.3",
+      "title": "Network theorems",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "nss.circuit-analysis.network-theorems.superposition",
+        "num": "2.1.3.1",
+        "title": "Superposition",
+        "src": "official"
+       },
+       {
+        "id": "nss.circuit-analysis.network-theorems.thevenin-s-theorem",
+        "num": "2.1.3.2",
+        "title": "Thevenin's theorem",
+        "src": "official"
+       },
+       {
+        "id": "nss.circuit-analysis.network-theorems.norton-s-theorem",
+        "num": "2.1.3.3",
+        "title": "Norton's theorem",
+        "src": "official"
+       },
+       {
+        "id": "nss.circuit-analysis.network-theorems.reciprocity",
+        "num": "2.1.3.4",
+        "title": "Reciprocity",
+        "src": "official"
+       },
+       {
+        "id": "nss.circuit-analysis.network-theorems.maximum-power-transfer",
+        "num": "2.1.3.5",
+        "title": "Maximum power transfer",
+        "src": "official"
+       },
+       {
+        "id": "nss.circuit-analysis.network-theorems.millman-tellegen-substitution",
+        "num": "2.1.3.6",
+        "title": "Millman, Tellegen & substitution",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.circuit-analysis.sinusoidal-steady-state-analysis",
+      "num": "2.1.4",
+      "title": "Sinusoidal steady state analysis",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.circuit-analysis.sinusoidal-steady-state-analysis.phasors",
+        "num": "2.1.4.1",
+        "title": "Phasors",
+        "src": "official"
+       },
+       {
+        "id": "nss.circuit-analysis.sinusoidal-steady-state-analysis.impedance-admittance",
+        "num": "2.1.4.2",
+        "title": "Impedance & admittance",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.circuit-analysis.sinusoidal-steady-state-analysis.complex-power",
+        "num": "2.1.4.3",
+        "title": "Complex power",
+        "src": "official",
+        "note": "P, Q, S, pf"
+       },
+       {
+        "id": "nss.circuit-analysis.sinusoidal-steady-state-analysis.resonance-series-parallel-q-factor",
+        "num": "2.1.4.4",
+        "title": "Resonance (series & parallel, Q-factor)",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.circuit-analysis.sinusoidal-steady-state-analysis.coupled-circuits-mutual-inductance",
+        "num": "2.1.4.5",
+        "title": "Coupled circuits & mutual inductance",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "nss.time-frequency-domain-analysis-of-linear",
+    "num": "2.2",
+    "title": "Time & frequency domain analysis of linear circuits",
+    "src": "official",
+    "children": [
+     {
+      "id": "nss.time-frequency-domain-analysis-of-linear.initial-conditions",
+      "num": "2.2.1",
+      "title": "Initial conditions",
+      "src": "expanded"
+     },
+     {
+      "id": "nss.time-frequency-domain-analysis-of-linear.rl-rc-rlc-circuits",
+      "num": "2.2.2",
+      "title": "RL, RC & RLC circuits",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.time-frequency-domain-analysis-of-linear.rl-rc-rlc-circuits.first-order-rl",
+        "num": "2.2.2.1",
+        "title": "First-order RL",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.time-frequency-domain-analysis-of-linear.rl-rc-rlc-circuits.first-order-rc",
+        "num": "2.2.2.2",
+        "title": "First-order RC",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.time-frequency-domain-analysis-of-linear.rl-rc-rlc-circuits.second-order-rlc",
+        "num": "2.2.2.3",
+        "title": "Second-order RLC",
+        "src": "expanded",
+        "note": "over / critical / under-damped"
+       }
+      ]
+     },
+     {
+      "id": "nss.time-frequency-domain-analysis-of-linear.solution-of-network-equations-using-lapl",
+      "num": "2.2.3",
+      "title": "Solution of network equations using Laplace transform",
+      "src": "official"
+     },
+     {
+      "id": "nss.time-frequency-domain-analysis-of-linear.linear-2-port-network-parameters",
+      "num": "2.2.4",
+      "title": "Linear 2-port network parameters",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.time-frequency-domain-analysis-of-linear.linear-2-port-network-parameters.z-parameters",
+        "num": "2.2.4.1",
+        "title": "Z parameters",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.time-frequency-domain-analysis-of-linear.linear-2-port-network-parameters.y-parameters",
+        "num": "2.2.4.2",
+        "title": "Y parameters",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.time-frequency-domain-analysis-of-linear.linear-2-port-network-parameters.h-parameters",
+        "num": "2.2.4.3",
+        "title": "h parameters",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.time-frequency-domain-analysis-of-linear.linear-2-port-network-parameters.abcd-parameters",
+        "num": "2.2.4.4",
+        "title": "ABCD parameters",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.time-frequency-domain-analysis-of-linear.linear-2-port-network-parameters.symmetry-reciprocity-conditions",
+        "num": "2.2.4.5",
+        "title": "Symmetry & reciprocity conditions",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.time-frequency-domain-analysis-of-linear.linear-2-port-network-parameters.interconnections",
+        "num": "2.2.4.6",
+        "title": "Interconnections",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.time-frequency-domain-analysis-of-linear.wye-delta-transformation",
+      "num": "2.2.5",
+      "title": "Wye–delta transformation",
+      "src": "official"
+     }
+    ]
+   },
+   {
+    "id": "nss.lti-systems",
+    "num": "2.3",
+    "title": "LTI systems",
+    "src": "official",
+    "children": [
+     {
+      "id": "nss.lti-systems.definition-properties",
+      "num": "2.3.1",
+      "title": "Definition & properties",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.lti-systems.definition-properties.linearity",
+        "num": "2.3.1.1",
+        "title": "Linearity",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.lti-systems.definition-properties.time-invariance",
+        "num": "2.3.1.2",
+        "title": "Time invariance",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.lti-systems.definition-properties.memory",
+        "num": "2.3.1.3",
+        "title": "Memory",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.lti-systems.definition-properties.invertibility",
+        "num": "2.3.1.4",
+        "title": "Invertibility",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.lti-systems.causality",
+      "num": "2.3.2",
+      "title": "Causality",
+      "src": "official"
+     },
+     {
+      "id": "nss.lti-systems.stability",
+      "num": "2.3.3",
+      "title": "Stability",
+      "src": "official",
+      "note": "BIBO"
+     },
+     {
+      "id": "nss.lti-systems.impulse-response-convolution",
+      "num": "2.3.4",
+      "title": "Impulse response & convolution",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.lti-systems.impulse-response-convolution.convolution-integral",
+        "num": "2.3.4.1",
+        "title": "Convolution integral",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.lti-systems.impulse-response-convolution.convolution-sum",
+        "num": "2.3.4.2",
+        "title": "Convolution sum",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.lti-systems.impulse-response-convolution.properties-of-convolution",
+        "num": "2.3.4.3",
+        "title": "Properties of convolution",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.lti-systems.poles-zeroes",
+      "num": "2.3.5",
+      "title": "Poles & zeroes",
+      "src": "official"
+     },
+     {
+      "id": "nss.lti-systems.frequency-response",
+      "num": "2.3.6",
+      "title": "Frequency response",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.lti-systems.frequency-response.magnitude-phase-response",
+        "num": "2.3.6.1",
+        "title": "Magnitude & phase response",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.lti-systems.frequency-response.group-delay",
+        "num": "2.3.6.2",
+        "title": "Group delay",
+        "src": "official"
+       },
+       {
+        "id": "nss.lti-systems.frequency-response.phase-delay",
+        "num": "2.3.6.3",
+        "title": "Phase delay",
+        "src": "official"
+       },
+       {
+        "id": "nss.lti-systems.frequency-response.ideal-filters",
+        "num": "2.3.6.4",
+        "title": "Ideal filters",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "nss.continuous-time-signals",
+    "num": "2.4",
+    "title": "Continuous-time signals",
+    "src": "official",
+    "children": [
+     {
+      "id": "nss.continuous-time-signals.basics",
+      "num": "2.4.1",
+      "title": "Basics",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "nss.continuous-time-signals.basics.classification-energy-power-periodic-eve",
+        "num": "2.4.1.1",
+        "title": "Classification (energy, power, periodic, even/odd)",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.basics.standard-signals-step-impulse-ramp-expon",
+        "num": "2.4.1.2",
+        "title": "Standard signals (step, impulse, ramp, exponential, sinusoid)",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.basics.operations-shift-scale-reversal",
+        "num": "2.4.1.3",
+        "title": "Operations (shift, scale, reversal)",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.continuous-time-signals.fourier-series",
+      "num": "2.4.2",
+      "title": "Fourier series",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.continuous-time-signals.fourier-series.trigonometric-exponential-forms",
+        "num": "2.4.2.1",
+        "title": "Trigonometric & exponential forms",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.fourier-series.dirichlet-conditions",
+        "num": "2.4.2.2",
+        "title": "Dirichlet conditions",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.fourier-series.properties-symmetry",
+        "num": "2.4.2.3",
+        "title": "Properties & symmetry",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.fourier-series.gibbs-phenomenon",
+        "num": "2.4.2.4",
+        "title": "Gibbs phenomenon",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.continuous-time-signals.fourier-transform",
+      "num": "2.4.3",
+      "title": "Fourier transform",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.continuous-time-signals.fourier-transform.standard-pairs",
+        "num": "2.4.3.1",
+        "title": "Standard pairs",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.fourier-transform.properties",
+        "num": "2.4.3.2",
+        "title": "Properties",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.fourier-transform.parseval-s-theorem",
+        "num": "2.4.3.3",
+        "title": "Parseval's theorem",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.fourier-transform.energy-power-spectral-density",
+        "num": "2.4.3.4",
+        "title": "Energy & power spectral density",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.continuous-time-signals.laplace-transform",
+      "num": "2.4.4",
+      "title": "Laplace transform",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "nss.continuous-time-signals.laplace-transform.roc",
+        "num": "2.4.4.1",
+        "title": "ROC",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.laplace-transform.properties",
+        "num": "2.4.4.2",
+        "title": "Properties",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.laplace-transform.inverse-laplace",
+        "num": "2.4.4.3",
+        "title": "Inverse Laplace",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.laplace-transform.unilateral-transform",
+        "num": "2.4.4.4",
+        "title": "Unilateral transform",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.continuous-time-signals.nyquist-sampling-theorem",
+      "num": "2.4.5",
+      "title": "Nyquist sampling theorem",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.continuous-time-signals.nyquist-sampling-theorem.sampling",
+        "num": "2.4.5.1",
+        "title": "Sampling",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.nyquist-sampling-theorem.aliasing",
+        "num": "2.4.5.2",
+        "title": "Aliasing",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.continuous-time-signals.sampling-reconstruction",
+      "num": "2.4.6",
+      "title": "Sampling & reconstruction",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.continuous-time-signals.sampling-reconstruction.impulse-train-sampling",
+        "num": "2.4.6.1",
+        "title": "Impulse-train sampling",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.sampling-reconstruction.ideal-reconstruction",
+        "num": "2.4.6.2",
+        "title": "Ideal reconstruction",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.continuous-time-signals.sampling-reconstruction.practical-reconstruction-zoh",
+        "num": "2.4.6.3",
+        "title": "Practical reconstruction (ZOH)",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "nss.discrete-time-signals",
+    "num": "2.5",
+    "title": "Discrete-time signals",
+    "src": "official",
+    "children": [
+     {
+      "id": "nss.discrete-time-signals.basics",
+      "num": "2.5.1",
+      "title": "Basics",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "nss.discrete-time-signals.basics.standard-sequences",
+        "num": "2.5.1.1",
+        "title": "Standard sequences",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.discrete-time-signals.basics.classification",
+        "num": "2.5.1.2",
+        "title": "Classification",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.discrete-time-signals.basics.difference-equations",
+        "num": "2.5.1.3",
+        "title": "Difference equations",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.discrete-time-signals.dtft",
+      "num": "2.5.2",
+      "title": "DTFT",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.discrete-time-signals.dtft.definition-properties",
+        "num": "2.5.2.1",
+        "title": "Definition & properties",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.discrete-time-signals.dtft.frequency-response-of-dt-systems",
+        "num": "2.5.2.2",
+        "title": "Frequency response of DT systems",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.discrete-time-signals.dft",
+      "num": "2.5.3",
+      "title": "DFT",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.discrete-time-signals.dft.dft-properties",
+        "num": "2.5.3.1",
+        "title": "DFT & properties",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.discrete-time-signals.dft.circular-convolution",
+        "num": "2.5.3.2",
+        "title": "Circular convolution",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.discrete-time-signals.dft.fft-dit-dif",
+        "num": "2.5.3.3",
+        "title": "FFT (DIT / DIF)",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.discrete-time-signals.z-transform",
+      "num": "2.5.4",
+      "title": "z-transform",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.discrete-time-signals.z-transform.roc",
+        "num": "2.5.4.1",
+        "title": "ROC",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.discrete-time-signals.z-transform.properties",
+        "num": "2.5.4.2",
+        "title": "Properties",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.discrete-time-signals.z-transform.inverse-z-transform",
+        "num": "2.5.4.3",
+        "title": "Inverse z-transform",
+        "src": "expanded"
+       },
+       {
+        "id": "nss.discrete-time-signals.z-transform.stability-causality",
+        "num": "2.5.4.4",
+        "title": "Stability & causality",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "nss.discrete-time-signals.fir-iir-filter-design",
+      "num": "2.5.5",
+      "title": "FIR & IIR filter design",
+      "src": "official",
+      "children": [
+       {
+        "id": "nss.discrete-time-signals.fir-iir-filter-design.fir-filters",
+        "num": "2.5.5.1",
+        "title": "FIR filters",
+        "src": "expanded",
+        "children": [
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.fir-filters.linear-phase-types",
+          "num": "2.5.5.1.1",
+          "title": "Linear-phase types",
+          "src": "expanded"
+         },
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.fir-filters.window-method",
+          "num": "2.5.5.1.2",
+          "title": "Window method",
+          "src": "expanded"
+         },
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.fir-filters.frequency-sampling-method",
+          "num": "2.5.5.1.3",
+          "title": "Frequency-sampling method",
+          "src": "expanded"
+         }
+        ]
+       },
+       {
+        "id": "nss.discrete-time-signals.fir-iir-filter-design.iir-filters",
+        "num": "2.5.5.2",
+        "title": "IIR filters",
+        "src": "expanded",
+        "children": [
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.iir-filters.butterworth",
+          "num": "2.5.5.2.1",
+          "title": "Butterworth",
+          "src": "expanded"
+         },
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.iir-filters.chebyshev",
+          "num": "2.5.5.2.2",
+          "title": "Chebyshev",
+          "src": "expanded"
+         },
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.iir-filters.bilinear-transform",
+          "num": "2.5.5.2.3",
+          "title": "Bilinear transform",
+          "src": "expanded"
+         },
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.iir-filters.impulse-invariance",
+          "num": "2.5.5.2.4",
+          "title": "Impulse invariance",
+          "src": "expanded"
+         }
+        ]
+       },
+       {
+        "id": "nss.discrete-time-signals.fir-iir-filter-design.realisation-structures",
+        "num": "2.5.5.3",
+        "title": "Realisation structures",
+        "src": "expanded",
+        "children": [
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.realisation-structures.direct-form-i-ii",
+          "num": "2.5.5.3.1",
+          "title": "Direct form I & II",
+          "src": "expanded"
+         },
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.realisation-structures.cascade",
+          "num": "2.5.5.3.2",
+          "title": "Cascade",
+          "src": "expanded"
+         },
+         {
+          "id": "nss.discrete-time-signals.fir-iir-filter-design.realisation-structures.parallel",
+          "num": "2.5.5.3.3",
+          "title": "Parallel",
+          "src": "expanded"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "devices",
+  "num": "3",
+  "title": "Electronic Devices",
+  "src": "official",
+  "children": [
+   {
+    "id": "devices.energy-bands-in-solids",
+    "num": "3.1",
+    "title": "Energy bands in solids",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.energy-bands-in-solids.conductors-insulators-semiconductors",
+      "num": "3.1.1",
+      "title": "Conductors, insulators, semiconductors",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.energy-bands-in-solids.band-gap",
+      "num": "3.1.2",
+      "title": "Band gap",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.energy-bands-in-solids.formation-of-energy-bands",
+      "num": "3.1.3",
+      "title": "Formation of energy bands",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "devices.intrinsic-extrinsic-semiconductors",
+    "num": "3.2",
+    "title": "Intrinsic & extrinsic semiconductors",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.intrinsic-extrinsic-semiconductors.intrinsic-semiconductor",
+      "num": "3.2.1",
+      "title": "Intrinsic semiconductor",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.intrinsic-extrinsic-semiconductors.extrinsic-semiconductors",
+      "num": "3.2.2",
+      "title": "Extrinsic semiconductors",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "devices.intrinsic-extrinsic-semiconductors.extrinsic-semiconductors.n-type",
+        "num": "3.2.2.1",
+        "title": "n-type",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.intrinsic-extrinsic-semiconductors.extrinsic-semiconductors.p-type",
+        "num": "3.2.2.2",
+        "title": "p-type",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.intrinsic-extrinsic-semiconductors.extrinsic-semiconductors.donors-acceptors",
+        "num": "3.2.2.3",
+        "title": "Donors & acceptors",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.intrinsic-extrinsic-semiconductors.extrinsic-semiconductors.compensated-semiconductor",
+        "num": "3.2.2.4",
+        "title": "Compensated semiconductor",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "devices.equilibrium-carrier-concentration",
+    "num": "3.3",
+    "title": "Equilibrium carrier concentration",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.equilibrium-carrier-concentration.mass-action-law",
+      "num": "3.3.1",
+      "title": "Mass-action law",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.equilibrium-carrier-concentration.fermi-level-its-position",
+      "num": "3.3.2",
+      "title": "Fermi level & its position",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.equilibrium-carrier-concentration.temperature-doping-dependence",
+      "num": "3.3.3",
+      "title": "Temperature & doping dependence",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "devices.direct-indirect-band-gap-semiconductors",
+    "num": "3.4",
+    "title": "Direct & indirect band-gap semiconductors",
+    "src": "official"
+   },
+   {
+    "id": "devices.carrier-transport",
+    "num": "3.5",
+    "title": "Carrier transport",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.carrier-transport.drift-current-mobility",
+      "num": "3.5.1",
+      "title": "Drift current & mobility",
+      "src": "official"
+     },
+     {
+      "id": "devices.carrier-transport.diffusion-current",
+      "num": "3.5.2",
+      "title": "Diffusion current",
+      "src": "official",
+      "children": [
+       {
+        "id": "devices.carrier-transport.diffusion-current.diffusion-current",
+        "num": "3.5.2.1",
+        "title": "Diffusion current",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.carrier-transport.diffusion-current.einstein-relation",
+        "num": "3.5.2.2",
+        "title": "Einstein relation",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "devices.carrier-transport.resistivity",
+      "num": "3.5.3",
+      "title": "Resistivity",
+      "src": "official"
+     },
+     {
+      "id": "devices.carrier-transport.generation-recombination-of-carriers",
+      "num": "3.5.4",
+      "title": "Generation & recombination of carriers",
+      "src": "official"
+     },
+     {
+      "id": "devices.carrier-transport.poisson-continuity-equations",
+      "num": "3.5.5",
+      "title": "Poisson & continuity equations",
+      "src": "official",
+      "children": [
+       {
+        "id": "devices.carrier-transport.poisson-continuity-equations.poisson-s-equation",
+        "num": "3.5.5.1",
+        "title": "Poisson's equation",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.carrier-transport.poisson-continuity-equations.continuity-equation",
+        "num": "3.5.5.2",
+        "title": "Continuity equation",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.carrier-transport.poisson-continuity-equations.quasi-fermi-levels",
+        "num": "3.5.5.3",
+        "title": "Quasi-Fermi levels",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "devices.carrier-transport.hall-effect",
+      "num": "3.5.6",
+      "title": "Hall effect",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "devices.p-n-junction",
+    "num": "3.6",
+    "title": "P–N junction",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.p-n-junction.formation-built-in-potential",
+      "num": "3.6.1",
+      "title": "Formation & built-in potential",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.p-n-junction.depletion-region",
+      "num": "3.6.2",
+      "title": "Depletion region",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "devices.p-n-junction.depletion-region.depletion-width",
+        "num": "3.6.2.1",
+        "title": "Depletion width",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.p-n-junction.depletion-region.electric-field",
+        "num": "3.6.2.2",
+        "title": "Electric field",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.p-n-junction.depletion-region.forward-reverse-bias",
+        "num": "3.6.2.3",
+        "title": "Forward & reverse bias",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "devices.p-n-junction.diode-equation-i-v-characteristics",
+      "num": "3.6.3",
+      "title": "Diode equation & I–V characteristics",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.p-n-junction.capacitances",
+      "num": "3.6.4",
+      "title": "Capacitances",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "devices.p-n-junction.capacitances.depletion-capacitance",
+        "num": "3.6.4.1",
+        "title": "Depletion capacitance",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.p-n-junction.capacitances.diffusion-capacitance",
+        "num": "3.6.4.2",
+        "title": "Diffusion capacitance",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "devices.p-n-junction.zener-diode",
+      "num": "3.6.5",
+      "title": "Zener diode",
+      "src": "official",
+      "children": [
+       {
+        "id": "devices.p-n-junction.zener-diode.zener-breakdown",
+        "num": "3.6.5.1",
+        "title": "Zener breakdown",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.p-n-junction.zener-diode.avalanche-breakdown",
+        "num": "3.6.5.2",
+        "title": "Avalanche breakdown",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.p-n-junction.zener-diode.zener-regulator",
+        "num": "3.6.5.3",
+        "title": "Zener regulator",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "devices.p-n-junction.schottky-diode-ohmic-contacts",
+      "num": "3.6.6",
+      "title": "Schottky diode & ohmic contacts",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "devices.bjt",
+    "num": "3.7",
+    "title": "BJT",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.bjt.structure-modes-of-operation",
+      "num": "3.7.1",
+      "title": "Structure & modes of operation",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.bjt.current-components-and",
+      "num": "3.7.2",
+      "title": "Current components, α and β",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.bjt.characteristics",
+      "num": "3.7.3",
+      "title": "Characteristics",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "devices.bjt.characteristics.input-output-characteristics",
+        "num": "3.7.3.1",
+        "title": "Input & output characteristics",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.bjt.characteristics.early-effect",
+        "num": "3.7.3.2",
+        "title": "Early effect",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "devices.bjt.models",
+      "num": "3.7.4",
+      "title": "Models",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "devices.bjt.models.ebers-moll-model",
+        "num": "3.7.4.1",
+        "title": "Ebers–Moll model",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.bjt.models.small-signal-hybrid-model",
+        "num": "3.7.4.2",
+        "title": "Small-signal hybrid-π model",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "devices.mos-capacitor",
+    "num": "3.8",
+    "title": "MOS capacitor",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.mos-capacitor.accumulation-depletion-inversion",
+      "num": "3.8.1",
+      "title": "Accumulation, depletion & inversion",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.mos-capacitor.flat-band-threshold-voltage",
+      "num": "3.8.2",
+      "title": "Flat-band & threshold voltage",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.mos-capacitor.c-v-characteristics",
+      "num": "3.8.3",
+      "title": "C–V characteristics",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "devices.mosfet",
+    "num": "3.9",
+    "title": "MOSFET",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.mosfet.enhancement-depletion-types",
+      "num": "3.9.1",
+      "title": "Enhancement & depletion types",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.mosfet.regions-of-operation",
+      "num": "3.9.2",
+      "title": "Regions of operation",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "devices.mosfet.regions-of-operation.cut-off",
+        "num": "3.9.2.1",
+        "title": "Cut-off",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.mosfet.regions-of-operation.triode",
+        "num": "3.9.2.2",
+        "title": "Triode",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.mosfet.regions-of-operation.saturation",
+        "num": "3.9.2.3",
+        "title": "Saturation",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "devices.mosfet.non-idealities",
+      "num": "3.9.3",
+      "title": "Non-idealities",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "devices.mosfet.non-idealities.channel-length-modulation",
+        "num": "3.9.3.1",
+        "title": "Channel-length modulation",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.mosfet.non-idealities.body-effect",
+        "num": "3.9.3.2",
+        "title": "Body effect",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "devices.mosfet.small-signal-model-gm",
+      "num": "3.9.4",
+      "title": "Small-signal model & gm",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "devices.scaling-in-mosfets",
+    "num": "3.10",
+    "title": "Scaling in MOSFETs",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.scaling-in-mosfets.constant-field-scaling",
+      "num": "3.10.1",
+      "title": "Constant-field scaling",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.scaling-in-mosfets.short-channel-effects",
+      "num": "3.10.2",
+      "title": "Short-channel effects",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.scaling-in-mosfets.dibl",
+      "num": "3.10.3",
+      "title": "DIBL",
+      "src": "expanded"
+     },
+     {
+      "id": "devices.scaling-in-mosfets.velocity-saturation",
+      "num": "3.10.4",
+      "title": "Velocity saturation",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "devices.optoelectronic-devices",
+    "num": "3.11",
+    "title": "Optoelectronic devices",
+    "src": "official",
+    "children": [
+     {
+      "id": "devices.optoelectronic-devices.led",
+      "num": "3.11.1",
+      "title": "LED",
+      "src": "official"
+     },
+     {
+      "id": "devices.optoelectronic-devices.photodiode",
+      "num": "3.11.2",
+      "title": "Photodiode",
+      "src": "official"
+     },
+     {
+      "id": "devices.optoelectronic-devices.solar-cell",
+      "num": "3.11.3",
+      "title": "Solar cell",
+      "src": "official",
+      "children": [
+       {
+        "id": "devices.optoelectronic-devices.solar-cell.voc-isc",
+        "num": "3.11.3.1",
+        "title": "Voc & Isc",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.optoelectronic-devices.solar-cell.fill-factor",
+        "num": "3.11.3.2",
+        "title": "Fill factor",
+        "src": "expanded"
+       },
+       {
+        "id": "devices.optoelectronic-devices.solar-cell.efficiency",
+        "num": "3.11.3.3",
+        "title": "Efficiency",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "analog",
+  "num": "4",
+  "title": "Analog Circuits",
+  "src": "official",
+  "children": [
+   {
+    "id": "analog.diode-circuits",
+    "num": "4.1",
+    "title": "Diode circuits",
+    "src": "official",
+    "children": [
+     {
+      "id": "analog.diode-circuits.clipping-circuits",
+      "num": "4.1.1",
+      "title": "Clipping circuits",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.diode-circuits.clipping-circuits.series-clippers",
+        "num": "4.1.1.1",
+        "title": "Series clippers",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.diode-circuits.clipping-circuits.shunt-clippers",
+        "num": "4.1.1.2",
+        "title": "Shunt clippers",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.diode-circuits.clipping-circuits.biased-combination-clippers",
+        "num": "4.1.1.3",
+        "title": "Biased & combination clippers",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.diode-circuits.clamping-circuits",
+      "num": "4.1.2",
+      "title": "Clamping circuits",
+      "src": "official"
+     },
+     {
+      "id": "analog.diode-circuits.rectifiers",
+      "num": "4.1.3",
+      "title": "Rectifiers",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.diode-circuits.rectifiers.half-wave",
+        "num": "4.1.3.1",
+        "title": "Half-wave",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.diode-circuits.rectifiers.full-wave-bridge",
+        "num": "4.1.3.2",
+        "title": "Full-wave & bridge",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.diode-circuits.rectifiers.ripple-filters",
+        "num": "4.1.3.3",
+        "title": "Ripple & filters",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.diode-circuits.zener-voltage-regulator",
+      "num": "4.1.4",
+      "title": "Zener voltage regulator",
+      "src": "expanded"
+     },
+     {
+      "id": "analog.diode-circuits.diode-models",
+      "num": "4.1.5",
+      "title": "Diode models",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "analog.diode-circuits.diode-models.ideal",
+        "num": "4.1.5.1",
+        "title": "Ideal",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.diode-circuits.diode-models.constant-drop",
+        "num": "4.1.5.2",
+        "title": "Constant-drop",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.diode-circuits.diode-models.piecewise-linear",
+        "num": "4.1.5.3",
+        "title": "Piecewise-linear",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "analog.bjt-amplifiers",
+    "num": "4.2",
+    "title": "BJT amplifiers",
+    "src": "official",
+    "children": [
+     {
+      "id": "analog.bjt-amplifiers.biasing",
+      "num": "4.2.1",
+      "title": "Biasing",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.bjt-amplifiers.biasing.fixed-bias",
+        "num": "4.2.1.1",
+        "title": "Fixed bias",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.biasing.voltage-divider-bias",
+        "num": "4.2.1.2",
+        "title": "Voltage-divider bias",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.biasing.q-point-stability-factor",
+        "num": "4.2.1.3",
+        "title": "Q-point & stability factor",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.bjt-amplifiers.configurations",
+      "num": "4.2.2",
+      "title": "Configurations",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "analog.bjt-amplifiers.configurations.common-emitter",
+        "num": "4.2.2.1",
+        "title": "Common emitter",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.configurations.common-base",
+        "num": "4.2.2.2",
+        "title": "Common base",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.configurations.common-collector",
+        "num": "4.2.2.3",
+        "title": "Common collector",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.bjt-amplifiers.small-signal-analysis",
+      "num": "4.2.3",
+      "title": "Small signal analysis",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.bjt-amplifiers.small-signal-analysis.hybrid-model",
+        "num": "4.2.3.1",
+        "title": "Hybrid-π model",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.small-signal-analysis.gain-rin-rout",
+        "num": "4.2.3.2",
+        "title": "Gain, Rin & Rout",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.bjt-amplifiers.ac-coupling",
+      "num": "4.2.4",
+      "title": "AC coupling",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.bjt-amplifiers.ac-coupling.coupling-capacitors",
+        "num": "4.2.4.1",
+        "title": "Coupling capacitors",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.ac-coupling.bypass-capacitors",
+        "num": "4.2.4.2",
+        "title": "Bypass capacitors",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.bjt-amplifiers.frequency-response",
+      "num": "4.2.5",
+      "title": "Frequency response",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.bjt-amplifiers.frequency-response.low-frequency-response",
+        "num": "4.2.5.1",
+        "title": "Low-frequency response",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.frequency-response.high-frequency-response-miller-effect",
+        "num": "4.2.5.2",
+        "title": "High-frequency response (Miller effect)",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.frequency-response.gain-bandwidth-product",
+        "num": "4.2.5.3",
+        "title": "Gain–bandwidth product",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.bjt-amplifiers.multistage-cascade-amplifiers",
+      "num": "4.2.6",
+      "title": "Multistage & cascade amplifiers",
+      "src": "expanded"
+     },
+     {
+      "id": "analog.bjt-amplifiers.power-amplifiers",
+      "num": "4.2.7",
+      "title": "Power amplifiers",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "analog.bjt-amplifiers.power-amplifiers.class-a",
+        "num": "4.2.7.1",
+        "title": "Class A",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.power-amplifiers.class-b",
+        "num": "4.2.7.2",
+        "title": "Class B",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.power-amplifiers.class-ab",
+        "num": "4.2.7.3",
+        "title": "Class AB",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.power-amplifiers.class-c",
+        "num": "4.2.7.4",
+        "title": "Class C",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.bjt-amplifiers.power-amplifiers.efficiency",
+        "num": "4.2.7.5",
+        "title": "Efficiency",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "analog.mosfet-amplifiers",
+    "num": "4.3",
+    "title": "MOSFET amplifiers",
+    "src": "official",
+    "children": [
+     {
+      "id": "analog.mosfet-amplifiers.biasing-small-signal-analysis",
+      "num": "4.3.1",
+      "title": "Biasing & small signal analysis",
+      "src": "official"
+     },
+     {
+      "id": "analog.mosfet-amplifiers.configurations",
+      "num": "4.3.2",
+      "title": "Configurations",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "analog.mosfet-amplifiers.configurations.common-source",
+        "num": "4.3.2.1",
+        "title": "Common source",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.mosfet-amplifiers.configurations.common-gate",
+        "num": "4.3.2.2",
+        "title": "Common gate",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.mosfet-amplifiers.configurations.common-drain",
+        "num": "4.3.2.3",
+        "title": "Common drain",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.mosfet-amplifiers.frequency-response",
+      "num": "4.3.3",
+      "title": "Frequency response",
+      "src": "official"
+     },
+     {
+      "id": "analog.mosfet-amplifiers.current-mirrors",
+      "num": "4.3.4",
+      "title": "Current mirrors",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.mosfet-amplifiers.current-mirrors.simple-mirror",
+        "num": "4.3.4.1",
+        "title": "Simple mirror",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.mosfet-amplifiers.current-mirrors.cascode-mirror",
+        "num": "4.3.4.2",
+        "title": "Cascode mirror",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.mosfet-amplifiers.current-mirrors.wilson-mirror",
+        "num": "4.3.4.3",
+        "title": "Wilson mirror",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.mosfet-amplifiers.current-mirrors.widlar-source",
+        "num": "4.3.4.4",
+        "title": "Widlar source",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.mosfet-amplifiers.differential-amplifiers",
+      "num": "4.3.5",
+      "title": "Differential amplifiers",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.mosfet-amplifiers.differential-amplifiers.differential-common-mode-gain",
+        "num": "4.3.5.1",
+        "title": "Differential & common-mode gain",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.mosfet-amplifiers.differential-amplifiers.cmrr",
+        "num": "4.3.5.2",
+        "title": "CMRR",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.mosfet-amplifiers.differential-amplifiers.bjt-differential-pair",
+        "num": "4.3.5.3",
+        "title": "BJT differential pair",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.mosfet-amplifiers.differential-amplifiers.mos-differential-pair",
+        "num": "4.3.5.4",
+        "title": "MOS differential pair",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "analog.feedback-amplifiers",
+    "num": "4.4",
+    "title": "Feedback amplifiers",
+    "src": "expanded",
+    "children": [
+     {
+      "id": "analog.feedback-amplifiers.effects-of-negative-feedback",
+      "num": "4.4.1",
+      "title": "Effects of negative feedback",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "analog.feedback-amplifiers.effects-of-negative-feedback.gain-desensitivity",
+        "num": "4.4.1.1",
+        "title": "Gain desensitivity",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.feedback-amplifiers.effects-of-negative-feedback.bandwidth",
+        "num": "4.4.1.2",
+        "title": "Bandwidth",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.feedback-amplifiers.effects-of-negative-feedback.input-output-impedance",
+        "num": "4.4.1.3",
+        "title": "Input & output impedance",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.feedback-amplifiers.four-topologies",
+      "num": "4.4.2",
+      "title": "Four topologies",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "analog.feedback-amplifiers.four-topologies.voltage-series",
+        "num": "4.4.2.1",
+        "title": "Voltage-series",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.feedback-amplifiers.four-topologies.voltage-shunt",
+        "num": "4.4.2.2",
+        "title": "Voltage-shunt",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.feedback-amplifiers.four-topologies.current-series",
+        "num": "4.4.2.3",
+        "title": "Current-series",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.feedback-amplifiers.four-topologies.current-shunt",
+        "num": "4.4.2.4",
+        "title": "Current-shunt",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.feedback-amplifiers.stability-barkhausen-criterion",
+      "num": "4.4.3",
+      "title": "Stability & Barkhausen criterion",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "analog.op-amp-circuits",
+    "num": "4.5",
+    "title": "Op-amp circuits",
+    "src": "official",
+    "children": [
+     {
+      "id": "analog.op-amp-circuits.op-amp-basics",
+      "num": "4.5.1",
+      "title": "Op-amp basics",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "analog.op-amp-circuits.op-amp-basics.ideal-op-amp",
+        "num": "4.5.1.1",
+        "title": "Ideal op-amp",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.op-amp-basics.non-idealities-offset-slew-rate-cmrr-gbw",
+        "num": "4.5.1.2",
+        "title": "Non-idealities (offset, slew rate, CMRR, GBW)",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.op-amp-circuits.amplifiers",
+      "num": "4.5.2",
+      "title": "Amplifiers",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.op-amp-circuits.amplifiers.inverting-amplifier",
+        "num": "4.5.2.1",
+        "title": "Inverting amplifier",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.amplifiers.non-inverting-amplifier",
+        "num": "4.5.2.2",
+        "title": "Non-inverting amplifier",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.amplifiers.difference-amplifier",
+        "num": "4.5.2.3",
+        "title": "Difference amplifier",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.amplifiers.instrumentation-amplifier",
+        "num": "4.5.2.4",
+        "title": "Instrumentation amplifier",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.op-amp-circuits.summers",
+      "num": "4.5.3",
+      "title": "Summers",
+      "src": "official"
+     },
+     {
+      "id": "analog.op-amp-circuits.differentiators",
+      "num": "4.5.4",
+      "title": "Differentiators",
+      "src": "official"
+     },
+     {
+      "id": "analog.op-amp-circuits.integrators",
+      "num": "4.5.5",
+      "title": "Integrators",
+      "src": "official"
+     },
+     {
+      "id": "analog.op-amp-circuits.non-linear-circuits",
+      "num": "4.5.6",
+      "title": "Non-linear circuits",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "analog.op-amp-circuits.non-linear-circuits.comparator",
+        "num": "4.5.6.1",
+        "title": "Comparator",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.non-linear-circuits.precision-rectifier",
+        "num": "4.5.6.2",
+        "title": "Precision rectifier",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.non-linear-circuits.log-antilog-amplifier",
+        "num": "4.5.6.3",
+        "title": "Log / antilog amplifier",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.op-amp-circuits.schmitt-trigger",
+      "num": "4.5.7",
+      "title": "Schmitt trigger",
+      "src": "official"
+     },
+     {
+      "id": "analog.op-amp-circuits.active-filters",
+      "num": "4.5.8",
+      "title": "Active filters",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.op-amp-circuits.active-filters.low-pass",
+        "num": "4.5.8.1",
+        "title": "Low-pass",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.active-filters.high-pass",
+        "num": "4.5.8.2",
+        "title": "High-pass",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.active-filters.band-pass",
+        "num": "4.5.8.3",
+        "title": "Band-pass",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.active-filters.band-stop-notch",
+        "num": "4.5.8.4",
+        "title": "Band-stop (notch)",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.active-filters.sallen-key",
+        "num": "4.5.8.5",
+        "title": "Sallen–Key",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.op-amp-circuits.oscillators",
+      "num": "4.5.9",
+      "title": "Oscillators",
+      "src": "official",
+      "children": [
+       {
+        "id": "analog.op-amp-circuits.oscillators.rc-phase-shift",
+        "num": "4.5.9.1",
+        "title": "RC phase-shift",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.oscillators.wien-bridge",
+        "num": "4.5.9.2",
+        "title": "Wien bridge",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.oscillators.lc-colpitts-hartley",
+        "num": "4.5.9.3",
+        "title": "LC (Colpitts, Hartley)",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.oscillators.crystal-oscillator",
+        "num": "4.5.9.4",
+        "title": "Crystal oscillator",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "analog.op-amp-circuits.dominant-pole-miller-compensation",
+      "num": "4.5.10",
+      "title": "Dominant-pole (Miller) compensation",
+      "src": "official"
+     },
+     {
+      "id": "analog.op-amp-circuits.phase-margin",
+      "num": "4.5.11",
+      "title": "Phase margin",
+      "src": "official"
+     },
+     {
+      "id": "analog.op-amp-circuits.waveform-generators-timers",
+      "num": "4.5.12",
+      "title": "Waveform generators & timers",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "analog.op-amp-circuits.waveform-generators-timers.555-astable",
+        "num": "4.5.12.1",
+        "title": "555 astable",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.waveform-generators-timers.555-monostable",
+        "num": "4.5.12.2",
+        "title": "555 monostable",
+        "src": "expanded"
+       },
+       {
+        "id": "analog.op-amp-circuits.waveform-generators-timers.multivibrators",
+        "num": "4.5.12.3",
+        "title": "Multivibrators",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "digital",
+  "num": "5",
+  "title": "Digital Circuits",
+  "src": "official",
+  "children": [
+   {
+    "id": "digital.number-representations",
+    "num": "5.1",
+    "title": "Number representations",
+    "src": "official",
+    "children": [
+     {
+      "id": "digital.number-representations.binary-octal-hex-conversions",
+      "num": "5.1.1",
+      "title": "Binary, octal, hex & conversions",
+      "src": "expanded"
+     },
+     {
+      "id": "digital.number-representations.integer-numbers",
+      "num": "5.1.2",
+      "title": "Integer numbers",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.number-representations.integer-numbers.sign-magnitude",
+        "num": "5.1.2.1",
+        "title": "Sign-magnitude",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.number-representations.integer-numbers.1-s-complement",
+        "num": "5.1.2.2",
+        "title": "1's complement",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.number-representations.integer-numbers.2-s-complement",
+        "num": "5.1.2.3",
+        "title": "2's complement",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.number-representations.integer-numbers.overflow",
+        "num": "5.1.2.4",
+        "title": "Overflow",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.number-representations.floating-point-numbers",
+      "num": "5.1.3",
+      "title": "Floating-point numbers",
+      "src": "official",
+      "note": "IEEE 754"
+     },
+     {
+      "id": "digital.number-representations.codes",
+      "num": "5.1.4",
+      "title": "Codes",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "digital.number-representations.codes.bcd",
+        "num": "5.1.4.1",
+        "title": "BCD",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.number-representations.codes.gray",
+        "num": "5.1.4.2",
+        "title": "Gray",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.number-representations.codes.excess-3",
+        "num": "5.1.4.3",
+        "title": "Excess-3",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.number-representations.codes.ascii",
+        "num": "5.1.4.4",
+        "title": "ASCII",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.number-representations.codes.parity",
+        "num": "5.1.4.5",
+        "title": "Parity",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "digital.combinatorial-circuits",
+    "num": "5.2",
+    "title": "Combinatorial circuits",
+    "src": "official",
+    "children": [
+     {
+      "id": "digital.combinatorial-circuits.boolean-algebra",
+      "num": "5.2.1",
+      "title": "Boolean algebra",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.combinatorial-circuits.boolean-algebra.postulates-de-morgan",
+        "num": "5.2.1.1",
+        "title": "Postulates & De Morgan",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.boolean-algebra.duality",
+        "num": "5.2.1.2",
+        "title": "Duality",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.boolean-algebra.sop-pos-minterms-maxterms",
+        "num": "5.2.1.3",
+        "title": "SOP & POS, minterms & maxterms",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.combinatorial-circuits.minimization-of-functions",
+      "num": "5.2.2",
+      "title": "Minimization of functions",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.combinatorial-circuits.minimization-of-functions.boolean-identities",
+        "num": "5.2.2.1",
+        "title": "Boolean identities",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.minimization-of-functions.karnaugh-map-incl-don-t-cares",
+        "num": "5.2.2.2",
+        "title": "Karnaugh map (incl. don't-cares)",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.minimization-of-functions.quine-mccluskey",
+        "num": "5.2.2.3",
+        "title": "Quine–McCluskey",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.combinatorial-circuits.logic-gates-static-cmos-implementations",
+      "num": "5.2.3",
+      "title": "Logic gates & static CMOS implementations",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.combinatorial-circuits.logic-gates-static-cmos-implementations.universal-gates-nand-nor",
+        "num": "5.2.3.1",
+        "title": "Universal gates (NAND, NOR)",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.logic-gates-static-cmos-implementations.cmos-pull-up-pull-down-networks",
+        "num": "5.2.3.2",
+        "title": "CMOS pull-up & pull-down networks",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.logic-gates-static-cmos-implementations.transmission-gate",
+        "num": "5.2.3.3",
+        "title": "Transmission gate",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.logic-gates-static-cmos-implementations.delay-power",
+        "num": "5.2.3.4",
+        "title": "Delay & power",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.combinatorial-circuits.arithmetic-circuits",
+      "num": "5.2.4",
+      "title": "Arithmetic circuits",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.combinatorial-circuits.arithmetic-circuits.half-full-adder",
+        "num": "5.2.4.1",
+        "title": "Half & full adder",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.arithmetic-circuits.subtractor",
+        "num": "5.2.4.2",
+        "title": "Subtractor",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.arithmetic-circuits.ripple-carry-carry-look-ahead",
+        "num": "5.2.4.3",
+        "title": "Ripple-carry & carry-look-ahead",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.arithmetic-circuits.multiplier",
+        "num": "5.2.4.4",
+        "title": "Multiplier",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.combinatorial-circuits.code-converters",
+      "num": "5.2.5",
+      "title": "Code converters",
+      "src": "official"
+     },
+     {
+      "id": "digital.combinatorial-circuits.multiplexers",
+      "num": "5.2.6",
+      "title": "Multiplexers",
+      "src": "official",
+      "note": "also used to implement functions"
+     },
+     {
+      "id": "digital.combinatorial-circuits.decoders",
+      "num": "5.2.7",
+      "title": "Decoders",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.combinatorial-circuits.decoders.decoders",
+        "num": "5.2.7.1",
+        "title": "Decoders",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.decoders.encoders-priority-encoders",
+        "num": "5.2.7.2",
+        "title": "Encoders & priority encoders",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.decoders.demultiplexers",
+        "num": "5.2.7.3",
+        "title": "Demultiplexers",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.decoders.comparators",
+        "num": "5.2.7.4",
+        "title": "Comparators",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.combinatorial-circuits.hazards-plds",
+      "num": "5.2.8",
+      "title": "Hazards & PLDs",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "digital.combinatorial-circuits.hazards-plds.static-dynamic-hazards",
+        "num": "5.2.8.1",
+        "title": "Static & dynamic hazards",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.hazards-plds.pla-pal",
+        "num": "5.2.8.2",
+        "title": "PLA, PAL",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.combinatorial-circuits.hazards-plds.rom-based-logic",
+        "num": "5.2.8.3",
+        "title": "ROM-based logic",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "digital.sequential-circuits",
+    "num": "5.3",
+    "title": "Sequential circuits",
+    "src": "official",
+    "children": [
+     {
+      "id": "digital.sequential-circuits.latches-flip-flops",
+      "num": "5.3.1",
+      "title": "Latches & flip-flops",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.sequential-circuits.latches-flip-flops.sr-latch",
+        "num": "5.3.1.1",
+        "title": "SR latch",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.latches-flip-flops.d-jk-t-flip-flops",
+        "num": "5.3.1.2",
+        "title": "D, JK & T flip-flops",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.latches-flip-flops.excitation-tables",
+        "num": "5.3.1.3",
+        "title": "Excitation tables",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.latches-flip-flops.master-slave-race-around",
+        "num": "5.3.1.4",
+        "title": "Master–slave & race-around",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.sequential-circuits.shift-registers",
+      "num": "5.3.2",
+      "title": "Shift-registers",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.sequential-circuits.shift-registers.siso",
+        "num": "5.3.2.1",
+        "title": "SISO",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.shift-registers.sipo",
+        "num": "5.3.2.2",
+        "title": "SIPO",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.shift-registers.piso",
+        "num": "5.3.2.3",
+        "title": "PISO",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.shift-registers.pipo",
+        "num": "5.3.2.4",
+        "title": "PIPO",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.shift-registers.ring-johnson-counters",
+        "num": "5.3.2.5",
+        "title": "Ring & Johnson counters",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.sequential-circuits.counters",
+      "num": "5.3.3",
+      "title": "Counters",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.sequential-circuits.counters.asynchronous-ripple",
+        "num": "5.3.3.1",
+        "title": "Asynchronous (ripple)",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.counters.synchronous",
+        "num": "5.3.3.2",
+        "title": "Synchronous",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.counters.mod-n-up-down",
+        "num": "5.3.3.3",
+        "title": "Mod-N & up/down",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.counters.counter-design",
+        "num": "5.3.3.4",
+        "title": "Counter design",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.sequential-circuits.finite-state-machines",
+      "num": "5.3.4",
+      "title": "Finite state machines",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.sequential-circuits.finite-state-machines.mealy-moore",
+        "num": "5.3.4.1",
+        "title": "Mealy & Moore",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.finite-state-machines.state-diagram-table",
+        "num": "5.3.4.2",
+        "title": "State diagram & table",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.finite-state-machines.state-minimisation",
+        "num": "5.3.4.3",
+        "title": "State minimisation",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.sequential-circuits.finite-state-machines.fsm-design",
+        "num": "5.3.4.4",
+        "title": "FSM design",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.sequential-circuits.timing-analysis",
+      "num": "5.3.5",
+      "title": "Timing analysis",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.sequential-circuits.timing-analysis.propagation-delay",
+        "num": "5.3.5.1",
+        "title": "Propagation delay",
+        "src": "official"
+       },
+       {
+        "id": "digital.sequential-circuits.timing-analysis.setup-time-hold-time",
+        "num": "5.3.5.2",
+        "title": "Setup time & hold time",
+        "src": "official"
+       },
+       {
+        "id": "digital.sequential-circuits.timing-analysis.critical-path",
+        "num": "5.3.5.3",
+        "title": "Critical path",
+        "src": "official"
+       },
+       {
+        "id": "digital.sequential-circuits.timing-analysis.maximum-clock-frequency-skew",
+        "num": "5.3.5.4",
+        "title": "Maximum clock frequency & skew",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "digital.data-converters",
+    "num": "5.4",
+    "title": "Data converters",
+    "src": "official",
+    "children": [
+     {
+      "id": "digital.data-converters.sample-hold-circuits",
+      "num": "5.4.1",
+      "title": "Sample & hold circuits",
+      "src": "official"
+     },
+     {
+      "id": "digital.data-converters.dacs",
+      "num": "5.4.2",
+      "title": "DACs",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.data-converters.dacs.binary-weighted",
+        "num": "5.4.2.1",
+        "title": "Binary-weighted",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.data-converters.dacs.r-2r-ladder",
+        "num": "5.4.2.2",
+        "title": "R–2R ladder",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.data-converters.dacs.resolution-specifications",
+        "num": "5.4.2.3",
+        "title": "Resolution & specifications",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.data-converters.adcs",
+      "num": "5.4.3",
+      "title": "ADCs",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.data-converters.adcs.flash",
+        "num": "5.4.3.1",
+        "title": "Flash",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.data-converters.adcs.successive-approximation",
+        "num": "5.4.3.2",
+        "title": "Successive approximation",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.data-converters.adcs.dual-slope",
+        "num": "5.4.3.3",
+        "title": "Dual-slope",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.data-converters.adcs.counter-type",
+        "num": "5.4.3.4",
+        "title": "Counter type",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.data-converters.adcs.quantisation-error",
+        "num": "5.4.3.5",
+        "title": "Quantisation error",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "digital.semiconductor-memories",
+    "num": "5.5",
+    "title": "Semiconductor memories",
+    "src": "official",
+    "children": [
+     {
+      "id": "digital.semiconductor-memories.rom",
+      "num": "5.5.1",
+      "title": "ROM",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.semiconductor-memories.rom.mask-rom",
+        "num": "5.5.1.1",
+        "title": "Mask ROM",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.semiconductor-memories.rom.prom-eprom-eeprom",
+        "num": "5.5.1.2",
+        "title": "PROM / EPROM / EEPROM",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.semiconductor-memories.rom.flash",
+        "num": "5.5.1.3",
+        "title": "Flash",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.semiconductor-memories.sram",
+      "num": "5.5.2",
+      "title": "SRAM",
+      "src": "official",
+      "note": "6T cell"
+     },
+     {
+      "id": "digital.semiconductor-memories.dram",
+      "num": "5.5.3",
+      "title": "DRAM",
+      "src": "official",
+      "note": "1T-1C, refresh"
+     },
+     {
+      "id": "digital.semiconductor-memories.memory-organisation-expansion",
+      "num": "5.5.4",
+      "title": "Memory organisation & expansion",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "digital.computer-organization",
+    "num": "5.6",
+    "title": "Computer organization",
+    "src": "official",
+    "children": [
+     {
+      "id": "digital.computer-organization.machine-instructions-addressing-modes",
+      "num": "5.6.1",
+      "title": "Machine instructions & addressing modes",
+      "src": "official"
+     },
+     {
+      "id": "digital.computer-organization.alu",
+      "num": "5.6.2",
+      "title": "ALU",
+      "src": "official"
+     },
+     {
+      "id": "digital.computer-organization.data-path-control-unit",
+      "num": "5.6.3",
+      "title": "Data-path & control unit",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.computer-organization.data-path-control-unit.hardwired-control",
+        "num": "5.6.3.1",
+        "title": "Hardwired control",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.computer-organization.data-path-control-unit.micro-programmed-control",
+        "num": "5.6.3.2",
+        "title": "Micro-programmed control",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "digital.computer-organization.instruction-pipelining",
+      "num": "5.6.4",
+      "title": "Instruction pipelining",
+      "src": "official",
+      "children": [
+       {
+        "id": "digital.computer-organization.instruction-pipelining.stages-speed-up",
+        "num": "5.6.4.1",
+        "title": "Stages & speed-up",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.computer-organization.instruction-pipelining.structural-hazards",
+        "num": "5.6.4.2",
+        "title": "Structural hazards",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.computer-organization.instruction-pipelining.data-hazards",
+        "num": "5.6.4.3",
+        "title": "Data hazards",
+        "src": "expanded"
+       },
+       {
+        "id": "digital.computer-organization.instruction-pipelining.control-hazards",
+        "num": "5.6.4.4",
+        "title": "Control hazards",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "control",
+  "num": "6",
+  "title": "Control Systems",
+  "src": "official",
+  "children": [
+   {
+    "id": "control.basic-control-system-components",
+    "num": "6.1",
+    "title": "Basic control system components",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.basic-control-system-components.open-loop-vs-closed-loop",
+      "num": "6.1.1",
+      "title": "Open-loop vs closed-loop",
+      "src": "expanded"
+     },
+     {
+      "id": "control.basic-control-system-components.system-modelling",
+      "num": "6.1.2",
+      "title": "System modelling",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "control.basic-control-system-components.system-modelling.electrical-systems",
+        "num": "6.1.2.1",
+        "title": "Electrical systems",
+        "src": "expanded"
+       },
+       {
+        "id": "control.basic-control-system-components.system-modelling.mechanical-systems-analogies",
+        "num": "6.1.2.2",
+        "title": "Mechanical systems & analogies",
+        "src": "expanded"
+       },
+       {
+        "id": "control.basic-control-system-components.system-modelling.servo-motor-synchro",
+        "num": "6.1.2.3",
+        "title": "Servo motor, synchro",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "control.feedback-principle",
+    "num": "6.2",
+    "title": "Feedback principle",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.feedback-principle.effect-of-feedback",
+      "num": "6.2.1",
+      "title": "Effect of feedback",
+      "src": "expanded"
+     },
+     {
+      "id": "control.feedback-principle.sensitivity",
+      "num": "6.2.2",
+      "title": "Sensitivity",
+      "src": "expanded"
+     },
+     {
+      "id": "control.feedback-principle.disturbance-rejection",
+      "num": "6.2.3",
+      "title": "Disturbance rejection",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "control.transfer-function",
+    "num": "6.3",
+    "title": "Transfer function",
+    "src": "official"
+   },
+   {
+    "id": "control.block-diagram-representation",
+    "num": "6.4",
+    "title": "Block diagram representation",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.block-diagram-representation.block-diagram-reduction-rules",
+      "num": "6.4.1",
+      "title": "Block diagram reduction rules",
+      "src": "expanded"
+     },
+     {
+      "id": "control.block-diagram-representation.reduction-examples",
+      "num": "6.4.2",
+      "title": "Reduction examples",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "control.signal-flow-graph",
+    "num": "6.5",
+    "title": "Signal flow graph",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.signal-flow-graph.terminology",
+      "num": "6.5.1",
+      "title": "Terminology",
+      "src": "expanded"
+     },
+     {
+      "id": "control.signal-flow-graph.mason-s-gain-formula",
+      "num": "6.5.2",
+      "title": "Mason's gain formula",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "control.transient-steady-state-analysis-of-lti-s",
+    "num": "6.6",
+    "title": "Transient & steady-state analysis of LTI systems",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.transient-steady-state-analysis-of-lti-s.standard-test-signals",
+      "num": "6.6.1",
+      "title": "Standard test signals",
+      "src": "expanded"
+     },
+     {
+      "id": "control.transient-steady-state-analysis-of-lti-s.first-order-systems",
+      "num": "6.6.2",
+      "title": "First-order systems",
+      "src": "expanded"
+     },
+     {
+      "id": "control.transient-steady-state-analysis-of-lti-s.second-order-systems",
+      "num": "6.6.3",
+      "title": "Second-order systems",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "control.transient-steady-state-analysis-of-lti-s.second-order-systems.damping-ratio-natural-frequency",
+        "num": "6.6.3.1",
+        "title": "Damping ratio & natural frequency",
+        "src": "expanded"
+       },
+       {
+        "id": "control.transient-steady-state-analysis-of-lti-s.second-order-systems.rise-peak-settling-time",
+        "num": "6.6.3.2",
+        "title": "Rise, peak & settling time",
+        "src": "expanded"
+       },
+       {
+        "id": "control.transient-steady-state-analysis-of-lti-s.second-order-systems.peak-overshoot",
+        "num": "6.6.3.3",
+        "title": "Peak overshoot",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "control.transient-steady-state-analysis-of-lti-s.steady-state-error",
+      "num": "6.6.4",
+      "title": "Steady-state error",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "control.transient-steady-state-analysis-of-lti-s.steady-state-error.system-type",
+        "num": "6.6.4.1",
+        "title": "System type",
+        "src": "expanded"
+       },
+       {
+        "id": "control.transient-steady-state-analysis-of-lti-s.steady-state-error.kp-kv-ka-error-constants",
+        "num": "6.6.4.2",
+        "title": "Kp, Kv, Ka error constants",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "control.stability-criteria",
+    "num": "6.7",
+    "title": "Stability criteria",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.stability-criteria.concept-of-stability-poles-bibo",
+      "num": "6.7.1",
+      "title": "Concept of stability (poles, BIBO)",
+      "src": "expanded"
+     },
+     {
+      "id": "control.stability-criteria.routh-hurwitz-criterion",
+      "num": "6.7.2",
+      "title": "Routh–Hurwitz criterion",
+      "src": "official",
+      "children": [
+       {
+        "id": "control.stability-criteria.routh-hurwitz-criterion.basic-table",
+        "num": "6.7.2.1",
+        "title": "Basic table",
+        "src": "expanded"
+       },
+       {
+        "id": "control.stability-criteria.routh-hurwitz-criterion.special-cases-zero-element-zero-row",
+        "num": "6.7.2.2",
+        "title": "Special cases (zero element / zero row)",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "control.stability-criteria.nyquist-criterion",
+      "num": "6.7.3",
+      "title": "Nyquist criterion",
+      "src": "official",
+      "children": [
+       {
+        "id": "control.stability-criteria.nyquist-criterion.polar-plot",
+        "num": "6.7.3.1",
+        "title": "Polar plot",
+        "src": "expanded"
+       },
+       {
+        "id": "control.stability-criteria.nyquist-criterion.encirclements-stability",
+        "num": "6.7.3.2",
+        "title": "Encirclements & stability",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "control.frequency-response",
+    "num": "6.8",
+    "title": "Frequency response",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.frequency-response.resonant-peak-bandwidth",
+      "num": "6.8.1",
+      "title": "Resonant peak & bandwidth",
+      "src": "expanded"
+     },
+     {
+      "id": "control.frequency-response.time-vs-frequency-response-relation",
+      "num": "6.8.2",
+      "title": "Time vs frequency response relation",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "control.bode-root-locus-plots",
+    "num": "6.9",
+    "title": "Bode & root-locus plots",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.bode-root-locus-plots.bode-plot",
+      "num": "6.9.1",
+      "title": "Bode plot",
+      "src": "official",
+      "children": [
+       {
+        "id": "control.bode-root-locus-plots.bode-plot.magnitude-plot",
+        "num": "6.9.1.1",
+        "title": "Magnitude plot",
+        "src": "expanded"
+       },
+       {
+        "id": "control.bode-root-locus-plots.bode-plot.phase-plot",
+        "num": "6.9.1.2",
+        "title": "Phase plot",
+        "src": "expanded"
+       },
+       {
+        "id": "control.bode-root-locus-plots.bode-plot.gain-margin-phase-margin",
+        "num": "6.9.1.3",
+        "title": "Gain margin & phase margin",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "control.bode-root-locus-plots.root-locus",
+      "num": "6.9.2",
+      "title": "Root locus",
+      "src": "official",
+      "children": [
+       {
+        "id": "control.bode-root-locus-plots.root-locus.construction-rules",
+        "num": "6.9.2.1",
+        "title": "Construction rules",
+        "src": "expanded"
+       },
+       {
+        "id": "control.bode-root-locus-plots.root-locus.effect-of-adding-poles-zeros",
+        "num": "6.9.2.2",
+        "title": "Effect of adding poles & zeros",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "control.compensators",
+    "num": "6.10",
+    "title": "Compensators",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.compensators.lag-compensator",
+      "num": "6.10.1",
+      "title": "Lag compensator",
+      "src": "expanded"
+     },
+     {
+      "id": "control.compensators.lead-compensator",
+      "num": "6.10.2",
+      "title": "Lead compensator",
+      "src": "expanded"
+     },
+     {
+      "id": "control.compensators.lag-lead-compensator",
+      "num": "6.10.3",
+      "title": "Lag–lead compensator",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "control.pid-controller",
+    "num": "6.11",
+    "title": "PID controller",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.pid-controller.p",
+      "num": "6.11.1",
+      "title": "P",
+      "src": "expanded"
+     },
+     {
+      "id": "control.pid-controller.pi",
+      "num": "6.11.2",
+      "title": "PI",
+      "src": "expanded"
+     },
+     {
+      "id": "control.pid-controller.pd",
+      "num": "6.11.3",
+      "title": "PD",
+      "src": "expanded"
+     },
+     {
+      "id": "control.pid-controller.pid",
+      "num": "6.11.4",
+      "title": "PID",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "control.state-variable-model-solution-of-state-e",
+    "num": "6.12",
+    "title": "State variable model & solution of state equation",
+    "src": "official",
+    "children": [
+     {
+      "id": "control.state-variable-model-solution-of-state-e.state-space-representation",
+      "num": "6.12.1",
+      "title": "State-space representation",
+      "src": "expanded"
+     },
+     {
+      "id": "control.state-variable-model-solution-of-state-e.transfer-function-from-state-model",
+      "num": "6.12.2",
+      "title": "Transfer function from state model",
+      "src": "expanded"
+     },
+     {
+      "id": "control.state-variable-model-solution-of-state-e.state-transition-matrix-solution",
+      "num": "6.12.3",
+      "title": "State-transition matrix & solution",
+      "src": "expanded"
+     },
+     {
+      "id": "control.state-variable-model-solution-of-state-e.controllability-observability",
+      "num": "6.12.4",
+      "title": "Controllability & observability",
+      "src": "expanded"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "comm",
+  "num": "7",
+  "title": "Communications",
+  "src": "official",
+  "children": [
+   {
+    "id": "comm.random-processes",
+    "num": "7.1",
+    "title": "Random processes",
+    "src": "official",
+    "children": [
+     {
+      "id": "comm.random-processes.definitions-classification",
+      "num": "7.1.1",
+      "title": "Definitions & classification",
+      "src": "expanded"
+     },
+     {
+      "id": "comm.random-processes.stationarity",
+      "num": "7.1.2",
+      "title": "Stationarity",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "comm.random-processes.stationarity.strict-sense",
+        "num": "7.1.2.1",
+        "title": "Strict-sense",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.random-processes.stationarity.wide-sense",
+        "num": "7.1.2.2",
+        "title": "Wide-sense",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.random-processes.autocorrelation",
+      "num": "7.1.3",
+      "title": "Autocorrelation",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.random-processes.autocorrelation.definition",
+        "num": "7.1.3.1",
+        "title": "Definition",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.random-processes.autocorrelation.properties",
+        "num": "7.1.3.2",
+        "title": "Properties",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.random-processes.power-spectral-density",
+      "num": "7.1.4",
+      "title": "Power spectral density",
+      "src": "official",
+      "note": "Wiener–Khinchin"
+     },
+     {
+      "id": "comm.random-processes.properties-of-white-noise",
+      "num": "7.1.5",
+      "title": "Properties of white noise",
+      "src": "official"
+     },
+     {
+      "id": "comm.random-processes.gaussian-process",
+      "num": "7.1.6",
+      "title": "Gaussian process",
+      "src": "expanded"
+     },
+     {
+      "id": "comm.random-processes.filtering-of-random-signals-through-lti",
+      "num": "7.1.7",
+      "title": "Filtering of random signals through LTI systems",
+      "src": "official"
+     }
+    ]
+   },
+   {
+    "id": "comm.analog-communications",
+    "num": "7.2",
+    "title": "Analog communications",
+    "src": "official",
+    "children": [
+     {
+      "id": "comm.analog-communications.noise-basics",
+      "num": "7.2.1",
+      "title": "Noise basics",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "comm.analog-communications.noise-basics.thermal-noise",
+        "num": "7.2.1.1",
+        "title": "Thermal noise",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.noise-basics.snr",
+        "num": "7.2.1.2",
+        "title": "SNR",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.noise-basics.noise-figure",
+        "num": "7.2.1.3",
+        "title": "Noise figure",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.analog-communications.amplitude-modulation-demodulation",
+      "num": "7.2.2",
+      "title": "Amplitude modulation & demodulation",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.analog-communications.amplitude-modulation-demodulation.dsb-fc-am",
+        "num": "7.2.2.1",
+        "title": "DSB-FC (AM)",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.amplitude-modulation-demodulation.dsb-sc",
+        "num": "7.2.2.2",
+        "title": "DSB-SC",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.amplitude-modulation-demodulation.ssb",
+        "num": "7.2.2.3",
+        "title": "SSB",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.amplitude-modulation-demodulation.vsb",
+        "num": "7.2.2.4",
+        "title": "VSB",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.amplitude-modulation-demodulation.modulation-index-power-efficiency",
+        "num": "7.2.2.5",
+        "title": "Modulation index, power & efficiency",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.amplitude-modulation-demodulation.demodulation-envelope-coherent",
+        "num": "7.2.2.6",
+        "title": "Demodulation (envelope, coherent)",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.analog-communications.angle-modulation-demodulation",
+      "num": "7.2.3",
+      "title": "Angle modulation & demodulation",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.analog-communications.angle-modulation-demodulation.fm-pm",
+        "num": "7.2.3.1",
+        "title": "FM & PM",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.angle-modulation-demodulation.narrow-band-vs-wide-band",
+        "num": "7.2.3.2",
+        "title": "Narrow-band vs wide-band",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.angle-modulation-demodulation.carson-s-rule",
+        "num": "7.2.3.3",
+        "title": "Carson's rule",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.angle-modulation-demodulation.generation-demodulation",
+        "num": "7.2.3.4",
+        "title": "Generation & demodulation",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.analog-communications.spectra-of-am-fm",
+      "num": "7.2.4",
+      "title": "Spectra of AM & FM",
+      "src": "official"
+     },
+     {
+      "id": "comm.analog-communications.superheterodyne-receivers",
+      "num": "7.2.5",
+      "title": "Superheterodyne receivers",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.analog-communications.superheterodyne-receivers.if-image-frequency",
+        "num": "7.2.5.1",
+        "title": "IF & image frequency",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.superheterodyne-receivers.selectivity-sensitivity",
+        "num": "7.2.5.2",
+        "title": "Selectivity & sensitivity",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.analog-communications.noise-performance",
+      "num": "7.2.6",
+      "title": "Noise performance",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "comm.analog-communications.noise-performance.snr-in-am",
+        "num": "7.2.6.1",
+        "title": "SNR in AM",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.noise-performance.snr-in-fm-threshold-effect",
+        "num": "7.2.6.2",
+        "title": "SNR in FM & threshold effect",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.noise-performance.pre-emphasis-de-emphasis",
+        "num": "7.2.6.3",
+        "title": "Pre-emphasis & de-emphasis",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.analog-communications.pulse-modulation",
+      "num": "7.2.7",
+      "title": "Pulse modulation",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "comm.analog-communications.pulse-modulation.pam",
+        "num": "7.2.7.1",
+        "title": "PAM",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.pulse-modulation.pwm",
+        "num": "7.2.7.2",
+        "title": "PWM",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.pulse-modulation.ppm",
+        "num": "7.2.7.3",
+        "title": "PPM",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.analog-communications.pulse-modulation.tdm-fdm",
+        "num": "7.2.7.4",
+        "title": "TDM & FDM",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "comm.information-theory",
+    "num": "7.3",
+    "title": "Information theory",
+    "src": "official",
+    "children": [
+     {
+      "id": "comm.information-theory.entropy",
+      "num": "7.3.1",
+      "title": "Entropy",
+      "src": "official"
+     },
+     {
+      "id": "comm.information-theory.source-coding",
+      "num": "7.3.2",
+      "title": "Source coding",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.information-theory.source-coding.kraft-inequality",
+        "num": "7.3.2.1",
+        "title": "Kraft inequality",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.information-theory.source-coding.huffman-coding",
+        "num": "7.3.2.2",
+        "title": "Huffman coding",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.information-theory.source-coding.shannon-fano",
+        "num": "7.3.2.3",
+        "title": "Shannon–Fano",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.information-theory.mutual-information",
+      "num": "7.3.3",
+      "title": "Mutual information",
+      "src": "official"
+     },
+     {
+      "id": "comm.information-theory.channel-capacity-theorem",
+      "num": "7.3.4",
+      "title": "Channel capacity theorem",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.information-theory.channel-capacity-theorem.bsc-bec",
+        "num": "7.3.4.1",
+        "title": "BSC & BEC",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.information-theory.channel-capacity-theorem.shannon-hartley-theorem",
+        "num": "7.3.4.2",
+        "title": "Shannon–Hartley theorem",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "comm.digital-communications",
+    "num": "7.4",
+    "title": "Digital communications",
+    "src": "official",
+    "children": [
+     {
+      "id": "comm.digital-communications.pcm",
+      "num": "7.4.1",
+      "title": "PCM",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.digital-communications.pcm.sampling-quantisation",
+        "num": "7.4.1.1",
+        "title": "Sampling & quantisation",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.digital-communications.pcm.quantisation-noise-snr",
+        "num": "7.4.1.2",
+        "title": "Quantisation noise & SNR",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.digital-communications.pcm.companding-law-a-law",
+        "num": "7.4.1.3",
+        "title": "Companding (μ-law, A-law)",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.digital-communications.dpcm",
+      "num": "7.4.2",
+      "title": "DPCM",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.digital-communications.dpcm.dpcm",
+        "num": "7.4.2.1",
+        "title": "DPCM",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.digital-communications.dpcm.delta-modulation",
+        "num": "7.4.2.2",
+        "title": "Delta modulation",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.digital-communications.line-coding",
+      "num": "7.4.3",
+      "title": "Line coding",
+      "src": "expanded"
+     },
+     {
+      "id": "comm.digital-communications.digital-modulation-schemes",
+      "num": "7.4.4",
+      "title": "Digital modulation schemes",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.digital-communications.digital-modulation-schemes.ask",
+        "num": "7.4.4.1",
+        "title": "ASK",
+        "src": "official"
+       },
+       {
+        "id": "comm.digital-communications.digital-modulation-schemes.psk-bpsk-qpsk",
+        "num": "7.4.4.2",
+        "title": "PSK (BPSK, QPSK)",
+        "src": "official"
+       },
+       {
+        "id": "comm.digital-communications.digital-modulation-schemes.fsk",
+        "num": "7.4.4.3",
+        "title": "FSK",
+        "src": "official"
+       },
+       {
+        "id": "comm.digital-communications.digital-modulation-schemes.qam-m-ary",
+        "num": "7.4.4.4",
+        "title": "QAM & M-ary",
+        "src": "official"
+       },
+       {
+        "id": "comm.digital-communications.digital-modulation-schemes.constellation-diagrams",
+        "num": "7.4.4.5",
+        "title": "Constellation diagrams",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.digital-communications.bandwidth-of-digital-modulation",
+      "num": "7.4.5",
+      "title": "Bandwidth of digital modulation",
+      "src": "official"
+     },
+     {
+      "id": "comm.digital-communications.inter-symbol-interference",
+      "num": "7.4.6",
+      "title": "Inter-symbol interference",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.digital-communications.inter-symbol-interference.nyquist-criterion",
+        "num": "7.4.6.1",
+        "title": "Nyquist criterion",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.digital-communications.inter-symbol-interference.raised-cosine-filter",
+        "num": "7.4.6.2",
+        "title": "Raised-cosine filter",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.digital-communications.map-ml-detection",
+      "num": "7.4.7",
+      "title": "MAP & ML detection",
+      "src": "official"
+     },
+     {
+      "id": "comm.digital-communications.matched-filter-receiver",
+      "num": "7.4.8",
+      "title": "Matched filter receiver",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.digital-communications.matched-filter-receiver.matched-filter",
+        "num": "7.4.8.1",
+        "title": "Matched filter",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.digital-communications.matched-filter-receiver.correlator",
+        "num": "7.4.8.2",
+        "title": "Correlator",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.digital-communications.snr-ber",
+      "num": "7.4.9",
+      "title": "SNR & BER",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.digital-communications.snr-ber.q-function",
+        "num": "7.4.9.1",
+        "title": "Q-function",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.digital-communications.snr-ber.eb-n0",
+        "num": "7.4.9.2",
+        "title": "Eb/N0",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.digital-communications.snr-ber.ber-of-bpsk-qpsk-fsk",
+        "num": "7.4.9.3",
+        "title": "BER of BPSK / QPSK / FSK",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "comm.digital-communications.fundamentals-of-error-correction",
+      "num": "7.4.10",
+      "title": "Fundamentals of error correction",
+      "src": "official",
+      "children": [
+       {
+        "id": "comm.digital-communications.fundamentals-of-error-correction.linear-block-codes",
+        "num": "7.4.10.1",
+        "title": "Linear block codes",
+        "src": "expanded"
+       },
+       {
+        "id": "comm.digital-communications.fundamentals-of-error-correction.hamming-codes",
+        "num": "7.4.10.2",
+        "title": "Hamming codes",
+        "src": "official"
+       },
+       {
+        "id": "comm.digital-communications.fundamentals-of-error-correction.crc",
+        "num": "7.4.10.3",
+        "title": "CRC",
+        "src": "official"
+       },
+       {
+        "id": "comm.digital-communications.fundamentals-of-error-correction.convolutional-codes",
+        "num": "7.4.10.4",
+        "title": "Convolutional codes",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "em",
+  "num": "8",
+  "title": "Electromagnetics",
+  "src": "official",
+  "children": [
+   {
+    "id": "em.static-fields-foundation",
+    "num": "8.1",
+    "title": "Static fields (foundation)",
+    "src": "expanded",
+    "children": [
+     {
+      "id": "em.static-fields-foundation.electrostatics",
+      "num": "8.1.1",
+      "title": "Electrostatics",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "em.static-fields-foundation.electrostatics.coulomb-s-law",
+        "num": "8.1.1.1",
+        "title": "Coulomb's law",
+        "src": "expanded"
+       },
+       {
+        "id": "em.static-fields-foundation.electrostatics.gauss-s-law",
+        "num": "8.1.1.2",
+        "title": "Gauss's law",
+        "src": "expanded"
+       },
+       {
+        "id": "em.static-fields-foundation.electrostatics.potential-energy",
+        "num": "8.1.1.3",
+        "title": "Potential & energy",
+        "src": "expanded"
+       },
+       {
+        "id": "em.static-fields-foundation.electrostatics.capacitance",
+        "num": "8.1.1.4",
+        "title": "Capacitance",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.static-fields-foundation.magnetostatics",
+      "num": "8.1.2",
+      "title": "Magnetostatics",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "em.static-fields-foundation.magnetostatics.biot-savart-law",
+        "num": "8.1.2.1",
+        "title": "Biot–Savart law",
+        "src": "expanded"
+       },
+       {
+        "id": "em.static-fields-foundation.magnetostatics.amp-re-s-law",
+        "num": "8.1.2.2",
+        "title": "Ampère's law",
+        "src": "expanded"
+       },
+       {
+        "id": "em.static-fields-foundation.magnetostatics.inductance",
+        "num": "8.1.2.3",
+        "title": "Inductance",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "em.maxwell-s-equations",
+    "num": "8.2",
+    "title": "Maxwell's equations",
+    "src": "official",
+    "children": [
+     {
+      "id": "em.maxwell-s-equations.differential-integral-forms-and-their-in",
+      "num": "8.2.1",
+      "title": "Differential & integral forms and their interpretation",
+      "src": "official"
+     },
+     {
+      "id": "em.maxwell-s-equations.displacement-current",
+      "num": "8.2.2",
+      "title": "Displacement current",
+      "src": "expanded"
+     },
+     {
+      "id": "em.maxwell-s-equations.boundary-conditions",
+      "num": "8.2.3",
+      "title": "Boundary conditions",
+      "src": "official"
+     },
+     {
+      "id": "em.maxwell-s-equations.wave-equation",
+      "num": "8.2.4",
+      "title": "Wave equation",
+      "src": "official"
+     },
+     {
+      "id": "em.maxwell-s-equations.poynting-vector",
+      "num": "8.2.5",
+      "title": "Poynting vector",
+      "src": "official",
+      "children": [
+       {
+        "id": "em.maxwell-s-equations.poynting-vector.poynting-vector",
+        "num": "8.2.5.1",
+        "title": "Poynting vector",
+        "src": "expanded"
+       },
+       {
+        "id": "em.maxwell-s-equations.poynting-vector.poynting-theorem",
+        "num": "8.2.5.2",
+        "title": "Poynting theorem",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.maxwell-s-equations.time-harmonic-fields",
+      "num": "8.2.6",
+      "title": "Time-harmonic fields",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "em.plane-waves-properties",
+    "num": "8.3",
+    "title": "Plane waves & properties",
+    "src": "official",
+    "children": [
+     {
+      "id": "em.plane-waves-properties.uniform-plane-waves",
+      "num": "8.3.1",
+      "title": "Uniform plane waves",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "em.plane-waves-properties.uniform-plane-waves.lossless-medium",
+        "num": "8.3.1.1",
+        "title": "Lossless medium",
+        "src": "expanded"
+       },
+       {
+        "id": "em.plane-waves-properties.uniform-plane-waves.lossy-medium",
+        "num": "8.3.1.2",
+        "title": "Lossy medium",
+        "src": "expanded"
+       },
+       {
+        "id": "em.plane-waves-properties.uniform-plane-waves.intrinsic-impedance",
+        "num": "8.3.1.3",
+        "title": "Intrinsic impedance",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.plane-waves-properties.reflection-refraction",
+      "num": "8.3.2",
+      "title": "Reflection & refraction",
+      "src": "official",
+      "children": [
+       {
+        "id": "em.plane-waves-properties.reflection-refraction.normal-incidence",
+        "num": "8.3.2.1",
+        "title": "Normal incidence",
+        "src": "expanded"
+       },
+       {
+        "id": "em.plane-waves-properties.reflection-refraction.oblique-incidence",
+        "num": "8.3.2.2",
+        "title": "Oblique incidence",
+        "src": "expanded"
+       },
+       {
+        "id": "em.plane-waves-properties.reflection-refraction.brewster-angle",
+        "num": "8.3.2.3",
+        "title": "Brewster angle",
+        "src": "expanded"
+       },
+       {
+        "id": "em.plane-waves-properties.reflection-refraction.total-internal-reflection",
+        "num": "8.3.2.4",
+        "title": "Total internal reflection",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.plane-waves-properties.polarization",
+      "num": "8.3.3",
+      "title": "Polarization",
+      "src": "official",
+      "children": [
+       {
+        "id": "em.plane-waves-properties.polarization.linear",
+        "num": "8.3.3.1",
+        "title": "Linear",
+        "src": "expanded"
+       },
+       {
+        "id": "em.plane-waves-properties.polarization.circular",
+        "num": "8.3.3.2",
+        "title": "Circular",
+        "src": "expanded"
+       },
+       {
+        "id": "em.plane-waves-properties.polarization.elliptical",
+        "num": "8.3.3.3",
+        "title": "Elliptical",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.plane-waves-properties.phase-group-velocity",
+      "num": "8.3.4",
+      "title": "Phase & group velocity",
+      "src": "official"
+     },
+     {
+      "id": "em.plane-waves-properties.propagation-through-various-media",
+      "num": "8.3.5",
+      "title": "Propagation through various media",
+      "src": "official"
+     },
+     {
+      "id": "em.plane-waves-properties.skin-depth",
+      "num": "8.3.6",
+      "title": "Skin depth",
+      "src": "official"
+     }
+    ]
+   },
+   {
+    "id": "em.transmission-lines",
+    "num": "8.4",
+    "title": "Transmission lines",
+    "src": "official",
+    "children": [
+     {
+      "id": "em.transmission-lines.equations",
+      "num": "8.4.1",
+      "title": "Equations",
+      "src": "official",
+      "children": [
+       {
+        "id": "em.transmission-lines.equations.line-equations",
+        "num": "8.4.1.1",
+        "title": "Line equations",
+        "src": "expanded"
+       },
+       {
+        "id": "em.transmission-lines.equations.propagation-constant-lossless-line",
+        "num": "8.4.1.2",
+        "title": "Propagation constant & lossless line",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.transmission-lines.characteristic-impedance",
+      "num": "8.4.2",
+      "title": "Characteristic impedance",
+      "src": "official"
+     },
+     {
+      "id": "em.transmission-lines.reflection-coefficient-vswr",
+      "num": "8.4.3",
+      "title": "Reflection coefficient & VSWR",
+      "src": "expanded"
+     },
+     {
+      "id": "em.transmission-lines.impedance-transformation",
+      "num": "8.4.4",
+      "title": "Impedance transformation",
+      "src": "official"
+     },
+     {
+      "id": "em.transmission-lines.impedance-matching",
+      "num": "8.4.5",
+      "title": "Impedance matching",
+      "src": "official",
+      "children": [
+       {
+        "id": "em.transmission-lines.impedance-matching.quarter-wave-transformer",
+        "num": "8.4.5.1",
+        "title": "Quarter-wave transformer",
+        "src": "expanded"
+       },
+       {
+        "id": "em.transmission-lines.impedance-matching.single-stub",
+        "num": "8.4.5.2",
+        "title": "Single stub",
+        "src": "expanded"
+       },
+       {
+        "id": "em.transmission-lines.impedance-matching.double-stub",
+        "num": "8.4.5.3",
+        "title": "Double stub",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.transmission-lines.smith-chart",
+      "num": "8.4.6",
+      "title": "Smith chart",
+      "src": "official"
+     },
+     {
+      "id": "em.transmission-lines.s-parameters",
+      "num": "8.4.7",
+      "title": "S-parameters",
+      "src": "official"
+     }
+    ]
+   },
+   {
+    "id": "em.waveguides",
+    "num": "8.5",
+    "title": "Waveguides",
+    "src": "official",
+    "children": [
+     {
+      "id": "em.waveguides.rectangular-waveguide",
+      "num": "8.5.1",
+      "title": "Rectangular waveguide",
+      "src": "official",
+      "children": [
+       {
+        "id": "em.waveguides.rectangular-waveguide.te-tm-modes",
+        "num": "8.5.1.1",
+        "title": "TE & TM modes",
+        "src": "expanded"
+       },
+       {
+        "id": "em.waveguides.rectangular-waveguide.cut-off-frequency",
+        "num": "8.5.1.2",
+        "title": "Cut-off frequency",
+        "src": "expanded"
+       },
+       {
+        "id": "em.waveguides.rectangular-waveguide.dominant-te10-mode",
+        "num": "8.5.1.3",
+        "title": "Dominant TE10 mode",
+        "src": "expanded"
+       },
+       {
+        "id": "em.waveguides.rectangular-waveguide.guide-wavelength",
+        "num": "8.5.1.4",
+        "title": "Guide wavelength",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.waveguides.circular-waveguide",
+      "num": "8.5.2",
+      "title": "Circular waveguide",
+      "src": "official"
+     }
+    ]
+   },
+   {
+    "id": "em.light-propagation-in-optical-fibers",
+    "num": "8.6",
+    "title": "Light propagation in optical fibers",
+    "src": "official",
+    "children": [
+     {
+      "id": "em.light-propagation-in-optical-fibers.step-graded-index",
+      "num": "8.6.1",
+      "title": "Step & graded index",
+      "src": "expanded"
+     },
+     {
+      "id": "em.light-propagation-in-optical-fibers.numerical-aperture-acceptance-angle",
+      "num": "8.6.2",
+      "title": "Numerical aperture & acceptance angle",
+      "src": "expanded"
+     },
+     {
+      "id": "em.light-propagation-in-optical-fibers.modes",
+      "num": "8.6.3",
+      "title": "Modes",
+      "src": "expanded"
+     },
+     {
+      "id": "em.light-propagation-in-optical-fibers.dispersion-loss",
+      "num": "8.6.4",
+      "title": "Dispersion & loss",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "em.antennas",
+    "num": "8.7",
+    "title": "Antennas",
+    "src": "official",
+    "children": [
+     {
+      "id": "em.antennas.basic-parameters",
+      "num": "8.7.1",
+      "title": "Basic parameters",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "em.antennas.basic-parameters.radiation-pattern",
+        "num": "8.7.1.1",
+        "title": "Radiation pattern",
+        "src": "expanded"
+       },
+       {
+        "id": "em.antennas.basic-parameters.directivity-gain",
+        "num": "8.7.1.2",
+        "title": "Directivity & gain",
+        "src": "expanded"
+       },
+       {
+        "id": "em.antennas.basic-parameters.hpbw",
+        "num": "8.7.1.3",
+        "title": "HPBW",
+        "src": "expanded"
+       },
+       {
+        "id": "em.antennas.basic-parameters.radiation-resistance",
+        "num": "8.7.1.4",
+        "title": "Radiation resistance",
+        "src": "expanded"
+       },
+       {
+        "id": "em.antennas.basic-parameters.effective-area",
+        "num": "8.7.1.5",
+        "title": "Effective area",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.antennas.dipole-monopole-antennas",
+      "num": "8.7.2",
+      "title": "Dipole & monopole antennas",
+      "src": "official",
+      "children": [
+       {
+        "id": "em.antennas.dipole-monopole-antennas.hertzian-dipole",
+        "num": "8.7.2.1",
+        "title": "Hertzian dipole",
+        "src": "expanded"
+       },
+       {
+        "id": "em.antennas.dipole-monopole-antennas.half-wave-dipole",
+        "num": "8.7.2.2",
+        "title": "Half-wave dipole",
+        "src": "expanded"
+       },
+       {
+        "id": "em.antennas.dipole-monopole-antennas.monopole",
+        "num": "8.7.2.3",
+        "title": "Monopole",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.antennas.linear-antenna-arrays",
+      "num": "8.7.3",
+      "title": "Linear antenna arrays",
+      "src": "official",
+      "children": [
+       {
+        "id": "em.antennas.linear-antenna-arrays.array-factor",
+        "num": "8.7.3.1",
+        "title": "Array factor",
+        "src": "expanded"
+       },
+       {
+        "id": "em.antennas.linear-antenna-arrays.uniform-arrays",
+        "num": "8.7.3.2",
+        "title": "Uniform arrays",
+        "src": "expanded"
+       },
+       {
+        "id": "em.antennas.linear-antenna-arrays.broadside-end-fire",
+        "num": "8.7.3.3",
+        "title": "Broadside & end-fire",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "em.antennas.friis-transmission-formula",
+      "num": "8.7.4",
+      "title": "Friis transmission formula",
+      "src": "expanded"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ga",
+  "num": "9",
+  "title": "General Aptitude (GA)",
+  "src": "expanded",
+  "note": "common to every GATE paper",
+  "children": [
+   {
+    "id": "ga.verbal-ability",
+    "num": "9.1",
+    "title": "Verbal ability",
+    "src": "expanded",
+    "children": [
+     {
+      "id": "ga.verbal-ability.grammar",
+      "num": "9.1.1",
+      "title": "Grammar",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.verbal-ability.grammar.tenses",
+        "num": "9.1.1.1",
+        "title": "Tenses",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.verbal-ability.grammar.articles-prepositions",
+        "num": "9.1.1.2",
+        "title": "Articles & prepositions",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.verbal-ability.grammar.subject-verb-agreement",
+        "num": "9.1.1.3",
+        "title": "Subject–verb agreement",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.verbal-ability.grammar.pronouns-modifiers",
+        "num": "9.1.1.4",
+        "title": "Pronouns & modifiers",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "ga.verbal-ability.vocabulary",
+      "num": "9.1.2",
+      "title": "Vocabulary",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.verbal-ability.vocabulary.synonyms-antonyms",
+        "num": "9.1.2.1",
+        "title": "Synonyms & antonyms",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.verbal-ability.vocabulary.idioms-phrases",
+        "num": "9.1.2.2",
+        "title": "Idioms & phrases",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.verbal-ability.vocabulary.word-usage",
+        "num": "9.1.2.3",
+        "title": "Word usage",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "ga.verbal-ability.sentences",
+      "num": "9.1.3",
+      "title": "Sentences",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.verbal-ability.sentences.sentence-completion",
+        "num": "9.1.3.1",
+        "title": "Sentence completion",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.verbal-ability.sentences.sentence-correction",
+        "num": "9.1.3.2",
+        "title": "Sentence correction",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.verbal-ability.sentences.para-jumbles",
+        "num": "9.1.3.3",
+        "title": "Para-jumbles",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "ga.verbal-ability.reading-comprehension",
+      "num": "9.1.4",
+      "title": "Reading comprehension",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.verbal-ability.reading-comprehension.passage-questions",
+        "num": "9.1.4.1",
+        "title": "Passage questions",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.verbal-ability.reading-comprehension.inference-tone",
+        "num": "9.1.4.2",
+        "title": "Inference & tone",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "ga.numerical-ability",
+    "num": "9.2",
+    "title": "Numerical ability",
+    "src": "expanded",
+    "children": [
+     {
+      "id": "ga.numerical-ability.arithmetic",
+      "num": "9.2.1",
+      "title": "Arithmetic",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.numerical-ability.arithmetic.percentages",
+        "num": "9.2.1.1",
+        "title": "Percentages",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.arithmetic.ratio-proportion",
+        "num": "9.2.1.2",
+        "title": "Ratio & proportion",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.arithmetic.profit-loss",
+        "num": "9.2.1.3",
+        "title": "Profit & loss",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.arithmetic.simple-compound-interest",
+        "num": "9.2.1.4",
+        "title": "Simple & compound interest",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.arithmetic.averages-mixtures",
+        "num": "9.2.1.5",
+        "title": "Averages & mixtures",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.arithmetic.time-work",
+        "num": "9.2.1.6",
+        "title": "Time & work",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.arithmetic.time-speed-distance",
+        "num": "9.2.1.7",
+        "title": "Time, speed & distance",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "ga.numerical-ability.algebra-number-sense",
+      "num": "9.2.2",
+      "title": "Algebra & number sense",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.numerical-ability.algebra-number-sense.linear-quadratic-equations",
+        "num": "9.2.2.1",
+        "title": "Linear & quadratic equations",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.algebra-number-sense.number-series",
+        "num": "9.2.2.2",
+        "title": "Number series",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.algebra-number-sense.inequalities",
+        "num": "9.2.2.3",
+        "title": "Inequalities",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "ga.numerical-ability.geometry-mensuration",
+      "num": "9.2.3",
+      "title": "Geometry & mensuration",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.numerical-ability.geometry-mensuration.areas-volumes",
+        "num": "9.2.3.1",
+        "title": "Areas & volumes",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.geometry-mensuration.triangles-circles",
+        "num": "9.2.3.2",
+        "title": "Triangles & circles",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.geometry-mensuration.coordinate-geometry",
+        "num": "9.2.3.3",
+        "title": "Coordinate geometry",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "ga.numerical-ability.data-interpretation",
+      "num": "9.2.4",
+      "title": "Data interpretation",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.numerical-ability.data-interpretation.tables",
+        "num": "9.2.4.1",
+        "title": "Tables",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.data-interpretation.bar-line-pie-charts",
+        "num": "9.2.4.2",
+        "title": "Bar, line & pie charts",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "ga.numerical-ability.counting-probability",
+      "num": "9.2.5",
+      "title": "Counting & probability",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.numerical-ability.counting-probability.permutations-combinations",
+        "num": "9.2.5.1",
+        "title": "Permutations & combinations",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.numerical-ability.counting-probability.basic-probability",
+        "num": "9.2.5.2",
+        "title": "Basic probability",
+        "src": "expanded"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "ga.reasoning",
+    "num": "9.3",
+    "title": "Reasoning",
+    "src": "expanded",
+    "children": [
+     {
+      "id": "ga.reasoning.verbal-reasoning",
+      "num": "9.3.1",
+      "title": "Verbal reasoning",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.reasoning.verbal-reasoning.analogies",
+        "num": "9.3.1.1",
+        "title": "Analogies",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.reasoning.verbal-reasoning.syllogisms",
+        "num": "9.3.1.2",
+        "title": "Syllogisms",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.reasoning.verbal-reasoning.venn-diagrams",
+        "num": "9.3.1.3",
+        "title": "Venn diagrams",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.reasoning.verbal-reasoning.coding-decoding",
+        "num": "9.3.1.4",
+        "title": "Coding–decoding",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "ga.reasoning.logical-puzzles",
+      "num": "9.3.2",
+      "title": "Logical puzzles",
+      "src": "expanded",
+      "children": [
+       {
+        "id": "ga.reasoning.logical-puzzles.seating-arrangements",
+        "num": "9.3.2.1",
+        "title": "Seating arrangements",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.reasoning.logical-puzzles.directions-distances",
+        "num": "9.3.2.2",
+        "title": "Directions & distances",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.reasoning.logical-puzzles.blood-relations",
+        "num": "9.3.2.3",
+        "title": "Blood relations",
+        "src": "expanded"
+       },
+       {
+        "id": "ga.reasoning.logical-puzzles.ordering-ranking",
+        "num": "9.3.2.4",
+        "title": "Ordering & ranking",
+        "src": "expanded"
+       }
+      ]
+     },
+     {
+      "id": "ga.reasoning.critical-reasoning",
+      "num": "9.3.3",
+      "title": "Critical reasoning",
+      "src": "expanded"
+     }
+    ]
+   },
+   {
+    "id": "ga.spatial-aptitude",
+    "num": "9.4",
+    "title": "Spatial aptitude",
+    "src": "expanded",
+    "children": [
+     {
+      "id": "ga.spatial-aptitude.paper-folding-cutting",
+      "num": "9.4.1",
+      "title": "Paper folding & cutting",
+      "src": "expanded"
+     },
+     {
+      "id": "ga.spatial-aptitude.cubes-dice",
+      "num": "9.4.2",
+      "title": "Cubes & dice",
+      "src": "expanded"
+     },
+     {
+      "id": "ga.spatial-aptitude.mirror-water-images",
+      "num": "9.4.3",
+      "title": "Mirror & water images",
+      "src": "expanded"
+     },
+     {
+      "id": "ga.spatial-aptitude.pattern-completion-embedded-figures",
+      "num": "9.4.4",
+      "title": "Pattern completion & embedded figures",
+      "src": "expanded"
+     }
+    ]
+   }
+  ]
+ }
+]
