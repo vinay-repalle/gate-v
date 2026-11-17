@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>GATE 2027 ECE Tracker</title>
 <meta name="description" content="GATE 2027 ECE syllabus tree with progress tracking">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f4bd0'/%3E%3Cpath d='M9 17l5 5 9-11' stroke='white' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232b4fc4'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='white' stroke-width='2.4'/%3E%3Cpath d='M16 8a8 8 0 0 1 0 16z' fill='white'/%3E%3C/svg%3E">
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#2f4bd0">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11141c" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="GATE ECE">
@@ -16,62 +17,75 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top">
-  <h1>GATE 2027 · ECE</h1>
-  <p class="sub">Tap the circle: not started → partial → done. Parent topics fill in automatically.</p>
-  <div class="overall">
-    <div class="big" id="bigPct">0%</div>
-    <div class="obar">
-      <div class="bar" id="oBar"></div>
-      <div class="ostats" id="oStats"></div>
-    </div>
+<div class="app">
+  <aside class="side" id="side" aria-label="Sections"></aside>
+  <div class="col">
+    <header class="bar" id="bar">
+      <div class="brand">
+        <span class="mark"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="var(--accent)"/></svg></span>
+        <span class="brand-t"><b>GATE 2027</b><small>Electronics &amp; Communication</small></span>
+      </div>
+    </header>
+    <main id="view" aria-live="polite"><div class="empty">Loading syllabus…</div></main>
   </div>
-  <div class="cards" id="cards"></div>
-  <div class="legend" id="legend"></div>
-</header>
+  <nav class="tabs" id="tabs" aria-label="Main"></nav>
+</div>
 
-<div class="tools"><div class="tools-in">
-  <input class="search" id="q" type="search" placeholder="Search any topic or note…" aria-label="Search topics">
-  <div class="row2">
-    <div class="chips" id="chips" role="group" aria-label="Filter">
-      <button class="chip" data-f="all" aria-pressed="true">All</button>
-      <button class="chip" data-f="0" aria-pressed="false">Not started</button>
-      <button class="chip" data-f="1" aria-pressed="false">Partial</button>
-      <button class="chip" data-f="2" aria-pressed="false">Done</button>
-      <button class="chip" data-f="rev" aria-pressed="false">⚑ Revise</button>
-    </div>
-    <button class="mini" id="expAll">Expand all</button>
-    <button class="mini" id="colAll">Collapse all</button>
-  </div>
-</div></div>
-
-<main id="tree" aria-live="polite"><div class="empty">Loading syllabus…</div></main>
-
-<footer>
-  <p>Source: official GATE 2027 EC syllabus (IIT Madras, <a href="https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/EC_GATE2027_Syllabus.pdf" target="_blank" rel="noopener">PDF</a>). Topics tagged <span class="pill official">official</span> are named in it; <span class="pill notes">her notes</span> come from handwritten notes; untagged ones are expanded for study depth. General Aptitude is the standard GATE pattern. Always cross-check with the official PDF.</p>
-  <p>Progress: <b id="sync">…</b></p>
-  <p id="acct"></p>
+<!-- account / sync panel (opened from the round button in the top bar) -->
+<div class="pop" id="pop" hidden role="dialog" aria-label="Account and sync">
+  <p class="pop-name" id="acct"></p>
+  <p class="pop-sync"><span class="dot"></span><span id="sync">…</span></p>
   <p id="installRow" hidden>
-    <button class="mini" id="install" type="button">Install app on this device</button>
-    <span id="installHint" hidden>To install on iPhone: tap Share, then “Add to Home Screen”. It then opens without internet too.</span>
+    <button class="btn" id="install" type="button">Install app on this device</button>
+    <span id="installHint" class="pop-hint" hidden>On iPhone: tap Share, then “Add to Home Screen”. It then opens without internet too.</span>
   </p>
-  <p>Something missing? Open ⋯ on any topic and use “Add sub-point”.</p>
-</footer>
+</div>
 
 <div class="toast" id="toast" role="status" hidden></div>
 
 <div class="auth" id="auth" hidden>
   <form class="authBox" id="authForm" autocomplete="on">
+    <div class="authBrand">
+      <span class="mark"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="var(--accent)"/></svg></span>
+      <span><b>GATE 2027</b><small>Electronics &amp; Communication</small></span>
+    </div>
     <h2 id="authTitle">Welcome back</h2>
-    <p class="authSub">GATE 2027 · ECE tracker. Your progress follows you to any phone or laptop.</p>
+    <p class="authSub">Your progress follows you to any phone or laptop.</p>
     <label for="authName">Your name</label>
-    <input id="authName" name="name" type="text" autocomplete="username" maxlength="20" placeholder="e.g. Priya" required>
+    <input id="authName" name="name" type="text" autocomplete="username" maxlength="20" placeholder="e.g. You" required>
     <label for="authPin">4-digit PIN</label>
     <input id="authPin" name="pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="current-password" placeholder="••••" required>
     <p class="authErr" id="authErr" role="alert"></p>
     <button class="go" id="authGo" type="submit">Sign in</button>
     <button class="link" id="authSwitch" type="button">New here? Create an account</button>
   </form>
+</div>
+<!-- one loading screen until login, syllabus and her saved progress are all ready; then the whole app appears at once -->
+<div class="boot" id="boot" role="status" aria-live="polite">
+  <div class="reader" aria-hidden="true">
+    <svg class="girl" viewBox="0 0 200 150" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M62 128C62 96 78 74 100 72C122 74 138 96 138 128Z" fill="var(--accent)"/>
+      <path d="M95 62h10v11q-5 4-10 0z" fill="var(--raised)"/>
+      <path d="M115 30c18-4 26 14 14 30 3-11-3-19-14-20z" fill="var(--hair)"/>
+      <circle cx="100" cy="46" r="18" fill="var(--raised)"/>
+      <path d="M82 46c-3-20 13-30 26-26 12 3 13 17 11 28-6-10-17-13-28-10-4 1-7 5-9 8z" fill="var(--hair)"/>
+      <circle cx="117" cy="36" r="3.4" fill="var(--accent)" stroke="none"/>
+      <path d="M92 51q2 2 4 0M104 51q2 2 4 0" stroke-width="1.8"/>
+      <path d="M96 59q4 2 8 0" stroke-width="1.8"/>
+    </svg>
+    <div class="desk"><div class="book">
+      <div class="half l"></div><div class="half r"></div>
+      <div class="pg" style="--d:0s"><i class="fr"></i><i class="bk"></i></div>
+      <div class="pg" style="--d:.9s"><i class="fr"></i><i class="bk"></i></div>
+      <div class="pg" style="--d:1.8s"><i class="fr"></i><i class="bk"></i></div>
+    </div></div>
+    <svg class="arms" viewBox="0 0 200 150" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke="currentColor"><path d="M70 84L48 104" stroke-width="12"/><circle cx="45" cy="107" r="5.5" fill="var(--raised)" stroke-width="2"/></g>
+      <path d="M70 84L48 104" stroke="var(--accent)" stroke-width="8"/>
+      <g class="arm"><path d="M130 82L166 101" stroke="currentColor" stroke-width="12"/><path d="M130 82L166 101" stroke="var(--accent)" stroke-width="8"/><circle cx="170" cy="103" r="5.5" fill="var(--raised)" stroke="currentColor" stroke-width="2"/></g>
+    </svg>
+  </div>
+  <p id="bootMsg">Loading syllabus</p>
 </div>
 <script type="module" src="app.js"></script>
 <script type="module" src="pwa.js"></script>

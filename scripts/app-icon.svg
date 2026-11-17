@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- App icon: a girl studying at a table (soft 3D clay look). Rendered to PNG by scripts/render_icons.mjs -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a70e0"/><stop offset="1" stop-color="#2545b2"/></linearGradient>
+    <linearGradient id="tableTop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbf7ee"/><stop offset="1" stop-color="#e6dcc8"/></linearGradient>
+    <linearGradient id="tableFront" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d4c8af"/><stop offset="1" stop-color="#b9ab90"/></linearGradient>
+    <radialGradient id="skin" cx=".36" cy=".3" r=".85"><stop offset="0" stop-color="#f7d2b2"/><stop offset=".55" stop-color="#e3a97f"/><stop offset="1" stop-color="#c78b63"/></radialGradient>
+    <linearGradient id="neck" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9805a"/><stop offset="1" stop-color="#dba37b"/></linearGradient>
+    <linearGradient id="sweater" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fffdf8"/><stop offset="1" stop-color="#d8d0c0"/></linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35406a"/><stop offset="1" stop-color="#121827"/></linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8c25e"/><stop offset="1" stop-color="#d58b27"/></linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ebe4d4"/></linearGradient>
+    <filter id="blur24" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="blur10" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="blur5" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+
+  <rect id="bgrect" width="1024" height="1024" rx="230" fill="url(#bg)"/>
+
+  <g id="scene" transform="translate(512 512) scale(1.08) translate(-512 -459)">
+    <!-- soft shadow under the table -->
+    <ellipse cx="512" cy="742" rx="420" ry="52" fill="#0a1747" opacity=".42" filter="url(#blur24)"/>
+
+    <!-- ponytail (behind the head) -->
+    <path d="M596 252C704 226 770 322 728 436C708 486 656 506 642 472C694 420 684 336 596 304Z" fill="url(#hair)"/>
+
+    <!-- torso -->
+    <path d="M340 660C336 540 400 474 512 474C624 474 688 540 684 660Z" fill="url(#sweater)"/>
+    <!-- neck + shadow of the chin -->
+    <rect x="482" y="410" width="60" height="84" rx="26" fill="url(#neck)"/>
+    <ellipse cx="512" cy="478" rx="74" ry="18" fill="#7a5a3c" opacity=".16" filter="url(#blur5)"/>
+
+    <!-- head -->
+    <circle cx="396" cy="346" r="22" fill="#d59a72"/>
+    <circle cx="628" cy="346" r="22" fill="#d59a72"/>
+    <circle cx="512" cy="332" r="120" fill="url(#skin)"/>
+    <!-- fringe and hair cap -->
+    <path d="M388 336C378 218 452 164 524 168C606 172 648 232 636 308C602 252 540 240 480 264C438 280 408 304 388 336Z" fill="url(#hair)"/>
+    <ellipse cx="606" cy="262" rx="22" ry="15" transform="rotate(-24 606 262)" fill="#f2b04c"/>
+    <!-- face: eyes cast down at the book, small smile, warm cheeks -->
+    <path d="M444 356q24 18 48 0M538 356q24 18 48 0" fill="none" stroke="#3b2418" stroke-width="8" stroke-linecap="round"/>
+    <path d="M488 402q26 20 52 0" fill="none" stroke="#9a4a3a" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="450" cy="386" r="22" fill="#ff8f7d" opacity=".3" filter="url(#blur5)"/>
+    <circle cx="574" cy="386" r="22" fill="#ff8f7d" opacity=".3" filter="url(#blur5)"/>
+    <ellipse cx="466" cy="290" rx="54" ry="30" fill="#fff" opacity=".2" filter="url(#blur10)"/>
+
+    <!-- table: top surface and its front edge -->
+    <path d="M200 612H824L918 704H106Z" fill="url(#tableTop)" stroke="url(#tableTop)" stroke-width="14" stroke-linejoin="round"/>
+    <rect x="106" y="704" width="812" height="46" rx="16" fill="url(#tableFront)"/>
+    <path d="M200 622H824" stroke="#fff" stroke-width="5" opacity=".6" stroke-linecap="round"/>
+
+    <!-- book: shadow, cover, page stack, two pages -->
+    <ellipse cx="512" cy="738" rx="290" ry="26" fill="#6d5a36" opacity=".32" filter="url(#blur10)"/>
+    <path d="M262 626L512 646L762 626L796 716L512 742L228 716Z" fill="url(#cover)" stroke="url(#cover)" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M276 706L506 724V732L270 714Z" fill="#d9d0bc"/>
+    <path d="M518 724L748 706L754 714L518 732Z" fill="#d9d0bc"/>
+    <path d="M298 630L506 648V722L274 704Z" fill="url(#page)"/>
+    <path d="M518 648L726 630L750 704L518 722Z" fill="url(#page)"/>
+    <path d="M512 646V724" stroke="#c9bea5" stroke-width="5"/>
+    <g stroke="#cfc6b2" stroke-width="5" stroke-linecap="round">
+      <path d="M318 658L492 673M322 675L492 689M326 692L492 705"/>
+      <path d="M532 673L706 658M532 689L702 675M532 705L698 692"/>
+    </g>
+
+    <!-- a page being turned -->
+    <path d="M518 648C526 566 606 540 676 580C700 594 712 618 716 636L518 650Z" fill="url(#page)"/>
+    <path d="M518 648C526 566 606 540 676 580C700 594 712 618 716 636" fill="none" stroke="#d5ccb8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M540 620C570 590 620 584 660 604" fill="none" stroke="#cfc6b2" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+
+    <!-- arms: sleeves reaching to the book, hands resting on the pages -->
+    <path d="M394 528C340 570 318 626 334 668" fill="none" stroke="#cfc7b6" stroke-width="82" stroke-linecap="round"/>
+    <path d="M394 528C340 570 318 626 334 668" fill="none" stroke="url(#sweater)" stroke-width="72" stroke-linecap="round"/>
+    <path d="M630 528C684 570 706 626 690 668" fill="none" stroke="#cfc7b6" stroke-width="82" stroke-linecap="round"/>
+    <path d="M630 528C684 570 706 626 690 668" fill="none" stroke="url(#sweater)" stroke-width="72" stroke-linecap="round"/>
+    <circle cx="340" cy="682" r="35" fill="url(#skin)"/>
+    <circle cx="684" cy="682" r="35" fill="url(#skin)"/>
+  </g>
+</svg>

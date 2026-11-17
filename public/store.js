@@ -1,6 +1,7 @@
 /* Storage layer. The UI only talks to this interface:
  *
- *   store.state            -> { s:{id:1|2}, r:{id:1}, n:{id:text}, c:{id:{p,t}} }
+ *   store.state            -> { s:{id:1|2}, r:{id:1}, n:{id:text}, c:{id:{p,t}}, t:{id:ms}, m:{exam:'YYYY-MM-DD'} }
+ *   (t = when a topic's status was last changed, m = small settings such as the exam date)
  *   store.patch(change)    -> same shape as state; a null value deletes that key
  *   store.onChange(cb)     -> called when data changed from outside (other tab / other device)
  *   store.onStatus(cb)     -> called with a short status string for the footer
@@ -10,9 +11,9 @@
  */
 
 const KEY = 'gate_ece_progress_v2';
-const MAPS = ['s', 'r', 'n', 'c'];
+const MAPS = ['s', 'r', 'n', 'c', 't', 'm'];
 
-export const emptyState = () => ({ s: {}, r: {}, n: {}, c: {} });
+export const emptyState = () => ({ s: {}, r: {}, n: {}, c: {}, t: {}, m: {} });
 
 export function normalize(d) {
   const out = emptyState();

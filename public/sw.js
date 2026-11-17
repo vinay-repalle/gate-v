@@ -11,13 +11,13 @@
  *
  * To force every phone to drop old files: bump VERSION below.
  */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const APP_CACHE = `gate-app-${VERSION}`;
 const SDK_CACHE = 'gate-firebase-sdk-11.0.2';   // change together with the version in public/fb.js
 const NETWORK_TIMEOUT_MS = 4000;
 
 const APP_FILES = [
-  './', 'index.html', 'style.css', 'app.js', 'store.js', 'cloud-store.js', 'login.js', 'fb.js',
+  './', 'index.html', 'style.css', 'app.js', 'store.js', 'cloud-store.js', 'login.js', 'fb.js', 'pwa.js',
   'syllabus.json', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png',
 ];

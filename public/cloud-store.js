@@ -1,12 +1,12 @@
 /* Firestore-backed store with the same interface as store.js.
- * Data lives in one document per person: users/{uid}  ->  { s:{}, r:{}, n:{}, c:{} }
+ * Data lives in one document per person: users/{uid}  ->  { s:{}, r:{}, n:{}, c:{}, t:{}, m:{} }
  * Every change is written per topic id (merge), so two devices editing different topics
  * never overwrite each other. Live updates arrive through onSnapshot.
  */
 import { db, doc, onSnapshot, setDoc, deleteField } from './fb.js';
 import { emptyState, normalize, applyPatch } from './store.js';
 
-const MAPS = ['s', 'r', 'n', 'c'];
+const MAPS = ['s', 'r', 'n', 'c', 't', 'm'];
 const FLUSH_MS = 600;
 
 const stable = (v) => (v && typeof v === 'object'
